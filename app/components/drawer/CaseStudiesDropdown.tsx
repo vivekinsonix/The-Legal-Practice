@@ -1,12 +1,11 @@
 'use client';
 
-import React, { useCallback, useEffect, useRef, useState } from 'react';
-import { usePathname } from 'next/navigation';
-import Link from 'next/link';
-import { Spinner } from 'flowbite-react';
-import { ChevronDown, PencilRuler, TextSearch } from 'lucide-react';
-
 import { useDrawer } from '@/app/context/DrawerContext';
+import { Spinner } from 'flowbite-react';
+import { ChevronDown } from 'lucide-react';
+import { usePathname } from 'next/navigation';
+import Links from 'next/link';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { DropdownKey } from './header';
 import { useCaseStudies } from './useCaseStudies';
 
@@ -16,18 +15,17 @@ interface Props {
   setIsMenuOpen: () => void;
 }
 
-const CaseStudiesDropdown: React.FC<Props> = React.memo(({ openDropdown, setOpenDropdown }) => {
-  const pathname = usePathname();
-  const isHomePage = pathname === '/';
-
+const CaseStudiesDropdown: React.FC<Props> = React.memo(({ openDropdown, setOpenDropdown, setIsMenuOpen }) => {
   const isOpen = openDropdown === 'solutions';
-  const { loading } = useCaseStudies();
+  const { data, loading } = useCaseStudies();
   const { closeDrawer } = useDrawer();
 
   const wrapperRef = useRef<HTMLDivElement>(null);
+  const pathname = usePathname();
+  const isHomePage = pathname === '/';
   const [scrolled, setScrolled] = useState(false);
 
-  // Scroll listener (home page only)
+  // Scroll listener (only matters on home page)
   useEffect(() => {
     if (!isHomePage) return;
 
@@ -39,9 +37,9 @@ const CaseStudiesDropdown: React.FC<Props> = React.memo(({ openDropdown, setOpen
     return () => window.removeEventListener('scroll', handleScroll);
   }, [isHomePage]);
 
+  // Text color logic
   const navTextColor = isHomePage ? (scrolled ? 'text-black' : 'text-white') : 'text-black';
 
-  // Close on outside click
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (isOpen && wrapperRef.current && !wrapperRef.current.contains(event.target as Node)) {
@@ -57,42 +55,32 @@ const CaseStudiesDropdown: React.FC<Props> = React.memo(({ openDropdown, setOpen
     setOpenDropdown(isOpen ? null : 'solutions');
   }, [isOpen, setOpenDropdown]);
 
-  const Products = [
-    { name: 'Patent Landscaping', icon: PencilRuler },
-    { name: 'Patent Search', icon: TextSearch },
-  ];
-
   return (
     <div className="relative md:py-0 pb-4" ref={wrapperRef}>
-      <button onClick={toggle} className={`flex items-center gap-1 ${navTextColor} hover:text-blue-400`}>
-        Services
-        <ChevronDown size={16} className={`transition-transform ${isOpen ? 'rotate-180' : ''}`} />
+      <button onClick={toggle} className={` ${navTextColor} hover:text-blue-400 flex items-center gap-1`}>
+        Solutions
+        <ChevronDown size={16} className={isOpen ? 'rotate-180' : ''} />
       </button>
 
       {isOpen && (
-        <div className="absolute mt-2 md:w-64 w-full bg-white dark:bg-white shadow-lg rounded z-50">
+        <div className="absolute mt-2 md:w-64 w-full text-primary bg-white dark:bg-primary dark:text-secondary shadow-lg rounded z-50">
           {loading ? (
             <div className="p-4 flex justify-center">
               <Spinner />
             </div>
           ) : (
-            Products.map((product, index) => {
-              const IconComponent = product.icon;
-              return (
-                <Link
-                  key={index}
-                  href="/#services"
-                  onClick={() => {
-                    setOpenDropdown(null);
-                    closeDrawer();
-                  }}
-                  className="flex items-center gap-3 px-4 py-2 text-left dark:text-black hover:text-white hover:bg-primary"
-                >
-                  <IconComponent size={18} />
-                  <p className="text-md font-normal">{product.name}</p>
-                </Link>
-              );
-            })
+            data.map((item) => (
+              <Links
+                key={item.documentId}
+                href={`/solutions/startup/${item?.slug}`}
+                className="block px-4 py-2 text-left text-black hover:text-white hover:bg-primary"
+                onClick={() => {
+                  (setOpenDropdown(null), setIsMenuOpen(), closeDrawer());
+                }}
+              >
+                {item.main?.title}
+              </Links>
+            ))
           )}
         </div>
       )}
