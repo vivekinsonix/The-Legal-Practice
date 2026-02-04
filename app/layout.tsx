@@ -37,7 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ThemeModeScript />
       </head>
 
-      <body className="font-sans bg-white dark:bg-primary">
+      <body className="font-sans bg-white dark:bg-white">
         <DrawerProvider>
           <ThemeWrapper>
             <ThemeInit />

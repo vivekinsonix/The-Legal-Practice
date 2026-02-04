@@ -89,7 +89,7 @@ const PAGE_HEADER = React.memo(function PageHeader({ activeSection, sections, on
   }, []);
 
   return (
-    <nav className="sticky sm:top-14 md:top-14 top-12 border-b list-none border-gray-100 dark:border-gray-800 dark:text-white shadow-lg   bg-gradient-to-t from-secondary via-secondary to-white bg-gradient-to-t dark:from-secondary-dark dark:via-secondary-dark dark:to-primary dark:text-white" aria-label="Section Navigation" style={{ zIndex: 8 }}>
+    <nav className="sticky sm:top-14 md:top-14 top-12 border-b list-none border-gray-100 dark:border-gray-800 dark:text-black shadow-lg   bg-gradient-to-t from-secondary via-secondary to-white bg-gradient-to-t dark:from-secondary-dark dark:via-secondary-dark dark:to-primary dark:text-white" aria-label="Section Navigation" style={{ zIndex: 8 }}>
       <div className="container mx-auto  md:px-0 px-4 overflow-auto">
         <ul className="text-md flex gap-3 py-3 font-semibold md:gap-6">
           {sections.map((s) => (
@@ -172,7 +172,7 @@ export default function Details({ id }: { id: string }) {
   const seoImage = data?.seo?.metaImage || data?.main?.cover_image || '/default-og.jpg.png';
 
   return (
-    <div className="min-h-screen bg-white text-slate-900 dark:bg-primary dark:text-white">
+    <div className="min-h-screen bg-white text-slate-900 dark:bg-white dark:text-black">
       <SeoHead title={seoTitle} description={seoDescription} keywords={seoKeywords} url={seoUrl} image={seoImage} />
       <MAIN content={data?.main || {}} loading={loading} />
       {sections.length > 0 && <PAGE_HEADER activeSection={activeSection} sections={sections} onSelect={setActiveSection} />}

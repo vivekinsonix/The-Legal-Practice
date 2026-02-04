@@ -1214,3 +1214,15 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [06:48:27.940] Server  LOG      ✓ Compiled in 296ms
 [06:49:02.207] Server  LOG      ✓ Compiled in 443ms
 [06:49:11.943] Server  LOG      ✓ Compiled in 327ms
+[06:51:21.595] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:51:21.784] Browser WARN    Image with src "/logo/The-legal-practice-logo-scaled.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[06:51:21.909] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[06:51:22.279] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[06:51:43.881] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:51:44.076] Browser WARN    Image with src "/logo/The-legal-practice-logo-scaled.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[06:51:44.228] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[06:51:44.555] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[06:52:19.730] Server  LOG      ✓ Compiled in 934ms
+[06:53:22.855] Server  LOG      ✓ Compiled in 359ms
