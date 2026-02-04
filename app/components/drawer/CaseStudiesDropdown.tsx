@@ -58,7 +58,7 @@ const CaseStudiesDropdown: React.FC<Props> = React.memo(({ openDropdown, setOpen
   return (
     <div className="relative md:py-0 pb-4" ref={wrapperRef}>
       <button onClick={toggle} className={` ${navTextColor} hover:text-blue-400 flex items-center gap-1`}>
-        Solutions
+        Services
         <ChevronDown size={16} className={isOpen ? 'rotate-180' : ''} />
       </button>
 
