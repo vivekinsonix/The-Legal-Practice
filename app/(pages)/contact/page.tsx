@@ -207,21 +207,21 @@ export default function ContactPage() {
               Team of Experts
             </p>
 
-            <p className="text-slate-600 max-w-md mb-8">We partner with industry leaders who bring specialized expertise and deep insights.</p>
+            <p className="text-slate-600 max-w-md mb-8">we blend expert legal knowledge with personalised service to protect your interests and achieve your goals</p>
 
             <div className="space-y-4 mb-10">
               <a href="tel:+917207050832" className="flex items-center gap-3 cursor-pointer">
-                <PhoneCall className="text-blue-600" />
-                <span>91-7207050832</span>
+                <PhoneCall className="text-primary" />
+                <span> 020 8903 7017</span>
               </a>
 
               <a href="mailto:info@dolcera.com" className="flex items-center gap-3 cursor-pointer">
-                <Mail className="text-blue-600" />
-                <span>info@dolcera.com</span>
+                <Mail className="text-primary" />
+                <span> tlp@thelegalpractice.co.uk</span>
               </a>
             </div>
 
-            <h3 className="text-lg font-semibold mb-3">Partner Advisory Council</h3>
+            <h3 className="text-lg font-semibold mb-3">Discover our team of legal experts below</h3>
             {teamsLoading ? (
               <AdvisorsSkeleton />
             ) : (
@@ -234,7 +234,7 @@ export default function ContactPage() {
               </div>
             )}
 
-            <Link href="/teams" className="text-blue-600 font-medium hover:underline">
+            <Link href="/teams" className="text-primary font-medium hover:underline">
               Meet the Advisors ›
             </Link>
           </div>

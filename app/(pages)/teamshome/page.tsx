@@ -61,11 +61,18 @@ export default function PartnerAdvisoryCouncil() {
         <div className="relative text-center mx-auto  py-24 px-4">
           {!loading && Array.isArray(teams?.card) && teams?.card?.length > 0 && (
             <div className="absolute inset-0 -z-20">
-              <Image src="/bg-teams.png" alt="Background" fill className="object-cover" priority />
+              <Image src="/bg-teams.png" alt="Background" fill className="object-cover dark:brightness-110 dark:contrast-110" priority />
             </div>
           )}
 
-          <div className="absolute inset-0 -z-10 bg-linear-to-r from-white/90 via-white/75 to-white/60" />
+          <div
+            className="
+    absolute inset-0 -z-10
+    bg-gradient-to-r
+    from-white/90 via-white/75 to-white/60
+    dark:from-black/70 dark:via-black/50 dark:to-black/30
+  "
+          />
 
           {loading ? (
             <>
