@@ -203,8 +203,8 @@ export default function ContactPage() {
           {/* LEFT */}
           <div>
             <p className="text-4xl font-bold mb-4">
-              <span className="text-secondary">Connect</span> with Our <br />
-              Team of Experts
+              <span className="text-primary">Connect</span> with Our <br />
+              Team of Legal Experts
             </p>
 
             <p className="text-slate-600 max-w-md mb-8">we blend expert legal knowledge with personalised service to protect your interests and achieve your goals</p>
