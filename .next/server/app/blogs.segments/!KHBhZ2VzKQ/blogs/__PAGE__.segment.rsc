@@ -1,0 +1,8 @@
+1:"$Sreact.fragment"
+2:I[46401,["/_next/static/chunks/aebe5ae12e1ebfe5.js","/_next/static/chunks/46fec6feef67d970.js","/_next/static/chunks/54d5b7cac88c45ce.js","/_next/static/chunks/f3c10d7ad9771bce.js","/_next/static/chunks/8c2d59d47036abf9.js","/_next/static/chunks/cc99c5d30164e997.js"],"default"]
+3:I[17041,["/_next/static/chunks/aebe5ae12e1ebfe5.js","/_next/static/chunks/46fec6feef67d970.js","/_next/static/chunks/54d5b7cac88c45ce.js","/_next/static/chunks/f3c10d7ad9771bce.js","/_next/static/chunks/8c2d59d47036abf9.js","/_next/static/chunks/cc99c5d30164e997.js"],"SEO_IMAGE"]
+4:I[74624,["/_next/static/chunks/aebe5ae12e1ebfe5.js","/_next/static/chunks/46fec6feef67d970.js","/_next/static/chunks/54d5b7cac88c45ce.js","/_next/static/chunks/f3c10d7ad9771bce.js","/_next/static/chunks/8c2d59d47036abf9.js","/_next/static/chunks/cc99c5d30164e997.js"],"default"]
+5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+0:{"buildId":"uLcMMdpYN9d1ZRSrMqT-K","rsc":["$","$1","c",{"children":[[["$","$L2",null,{"title":"Latest Blogs | Dolcera","description":"Dolcera projects, patent analytics projects, IP management solutions, patent research case studies","keywords":"Dolcera projects, Dolcera Blogs,  patent analytics projects, IP management solutions, patent research case studiesx","url":"https://dev.insonix.com/blogs","image":"$3"}],["$","$L4",null,{}]],[["$","script","script-0",{"src":"/_next/static/chunks/cc99c5d30164e997.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

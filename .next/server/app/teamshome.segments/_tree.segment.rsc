@@ -1,0 +1,4 @@
+:HL["/_next/static/chunks/2758613b31b98cfa.css","style"]
+:HL["/_next/static/media/38df7484fe560b25-s.p.60f15535.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/7f20430e44eb7422-s.p.bd5bbcc6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"buildId":"uLcMMdpYN9d1ZRSrMqT-K","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"(pages)","paramType":null,"paramKey":"(pages)","hasRuntimePrefetch":false,"slots":{"children":{"name":"teamshome","paramType":null,"paramKey":"teamshome","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
