@@ -159,7 +159,7 @@ export default function BlogsHomePage() {
 
                         <p className="mt-4 text-sm ">{blog.description}</p>
 
-                        <Link href={`/blogs/detail/${blog.slug}`} className="mt-4 block font-semibold text-primary-200 opacity-0 transition-opacity duration-[500ms] group-hover:opacity-100">
+                        <Link href={`/blogs/detail/${blog.slug}`} className="mt-4 block font-semibold text-primary opacity-0 transition-opacity duration-[500ms] group-hover:opacity-100">
                           Read More →
                         </Link>
                       </div>

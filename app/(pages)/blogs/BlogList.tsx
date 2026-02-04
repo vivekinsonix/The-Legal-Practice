@@ -129,13 +129,13 @@ export default function BlogList() {
             blogs.map((post) => {
               const img = post.coverImage?.formats?.medium?.url || post.coverImage?.url || '/default-blog.jpg';
               return (
-                <article key={post.id} className="group relative w-full dark:bg-primary bg-white aspect-[1/1] overflow-hidden rounded-sm shadow-xl">
+                <article key={post.id} className="group relative w-full dark:bg-primary-50 bg-white aspect-[1/1] overflow-hidden rounded-sm shadow-xl">
                   {/* Image */}
                   <Image src={img} alt={post.title} width={600} height={400} className="transition-transform  duration-[500ms] ease-linear group-hover:scale-105" />
 
                   {/* Overlay Box */}
                   <div
-                    className="cursor-pointer absolute bottom-0 left-0 right-0 bg-gradient-to-t from-white via-white to-secondary-50/90  backdrop-blur-md
+                    className="cursor-pointer absolute bottom-0 left-0 right-0 bg-gradient-to-t from-white via-white to-primary-50/90  backdrop-blur-md
       rounded-t-sm
 
      

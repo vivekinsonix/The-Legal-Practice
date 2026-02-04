@@ -48,6 +48,7 @@ h6 {
 
   /* Primary */
   --color-primary: #009aa4;
+  --color-primary-light: #e5f5f6;
 
   /* Secondary */
   --color-secondary: #171717;

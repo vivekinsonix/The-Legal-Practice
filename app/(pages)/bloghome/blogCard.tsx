@@ -95,7 +95,7 @@ export default function BlogCard({ blog, variant }: { blog: Blog; variant: Varia
         <Link
           href={`/blogs/detail/${blog.slug}`}
           className={`
-            mt-4 block font-semibold text-primary-200
+            mt-4 block font-semibold text-primary
             ${inView || isRight ? 'opacity-100' : 'opacity-0'}
             transition-opacity duration-500
             md:group-hover:opacity-100

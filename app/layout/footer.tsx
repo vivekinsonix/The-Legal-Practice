@@ -113,7 +113,7 @@ export default function Footer() {
 
   return (
     <footer className="dark:bg-secondary bg-secondary dark:text-white pt-16 pb-10">
-      <div className="container mx-auto md:px-0 px-2 grid grid-cols-1 md:grid-cols-4 gap-10">
+      <div className="container mx-auto md:px-0 px-2 grid grid-cols-1 md:grid-cols-4 gap-20">
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-3 mt-0">
             <div>
@@ -123,7 +123,9 @@ export default function Footer() {
               <p className="text-gray-300 mb-0 text-md leading-relaxed ">{footerData?.title}</p>
             </div>
           </div>
-
+          <div>
+            <img src="/logo/solicators.png" alt="insonix" width="250" className=" mb-2  rounded-xl" />
+          </div>
           <div className="items-right  flex flex-col gap-1 ">
             <div className="flex gap-10 ">
               <div>
@@ -200,6 +202,9 @@ export default function Footer() {
           <p>122 – 126 Wembley Park Drive, Wembley Park,</p>
           <p>Greater London, HA9 8HP</p>
           {/* <Button className="hover:scale-110">Contact Us</Button> */}
+
+          <h5 className="text-lg mt-3 font-semibold mb-2 text-white !text-white ">Meeting rooms</h5>
+          <p>Rickmansworth, St Albans, Beaconsfield and Berkhamsted</p>
         </div>
       </div>
 

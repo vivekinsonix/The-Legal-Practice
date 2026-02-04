@@ -1226,7 +1226,7 @@ function BlogCard({ blog, variant }) {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         href: `/blogs/detail/${blog.slug}`,
                         className: `
-            mt-4 block font-semibold text-primary-200
+            mt-4 block font-semibold text-primary
             ${inView || isRight ? 'opacity-100' : 'opacity-0'}
             transition-opacity duration-500
             md:group-hover:opacity-100
@@ -1623,7 +1623,7 @@ function BlogsHomePage() {
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                                 href: `/blogs/detail/${blog.slug}`,
-                                                                className: "mt-4 block font-semibold text-primary-200 opacity-0 transition-opacity duration-[500ms] group-hover:opacity-100",
+                                                                className: "mt-4 block font-semibold text-primary opacity-0 transition-opacity duration-[500ms] group-hover:opacity-100",
                                                                 children: "Read More →"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(pages)/bloghome/page.tsx",
@@ -3149,7 +3149,7 @@ function VideoTestimonialSlider({ data }) {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "w-full md:w-1/2 p-6 flex flex-col justify-center",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-secondary-50 relative text-gray-900 p-10 rounded-xl rounded-bl-none shadow-md",
+                                className: "bg-primary-light relative z-40 text-gray-900 p-10 rounded-xl rounded-bl-none shadow-md",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "mb-3 text-xl italic",
@@ -3180,7 +3180,7 @@ function VideoTestimonialSlider({ data }) {
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "absolute top-24 -left-2 w-4 h-4 bg-secondary-50 rotate-45 -translate-y-2"
+                                        className: "absolute top-24 -left-2 z-10 w-4 h-4 bg-primary-light rotate-45 -translate-y-2"
                                     }, void 0, false, {
                                         fileName: "[project]/app/(pages)/Testimonials/TestimonialsList.tsx",
                                         lineNumber: 42,

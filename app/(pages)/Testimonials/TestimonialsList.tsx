@@ -35,11 +35,11 @@ function VideoTestimonialSlider({ data }: any) {
             </div>
 
             <div className="w-full md:w-1/2 p-6 flex flex-col justify-center">
-              <div className="bg-secondary-50 relative text-gray-900 p-10 rounded-xl rounded-bl-none shadow-md">
+              <div className="bg-primary-light relative z-40 text-gray-900 p-10 rounded-xl rounded-bl-none shadow-md">
                 <p className="mb-3 text-xl italic">"{testimonial?.text}"</p>
                 <p className="font-semibold text-lg">{testimonial?.name}</p>
                 <p className="text-lg text-primary-900">{testimonial?.designation}</p>
-                <div className="absolute top-24 -left-2 w-4 h-4 bg-secondary-50 rotate-45 -translate-y-2" />
+                <div className="absolute top-24 -left-2 z-10 w-4 h-4 bg-primary-light rotate-45 -translate-y-2" />
               </div>
             </div>
           </div>
