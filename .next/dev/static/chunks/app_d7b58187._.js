@@ -1214,7 +1214,7 @@ function BlogCard({ blog, variant }) {
                     blog.description && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: `
               mt-4 text-sm overflow-hidden transition-all duration-[500ms]
-              ${isRight || inView ? 'opacity-100 max-h-40' : 'opacity-0 max-h-0'}
+              ${isRight || inView ? 'opacity-100 max-h-40' : 'opacity-100 max-h-40'}
               md:group-hover:opacity-100 md:group-hover:max-h-40
             `,
                         children: blog.description

@@ -84,7 +84,7 @@ export default function BlogCard({ blog, variant }: { blog: Blog; variant: Varia
           <p
             className={`
               mt-4 text-sm overflow-hidden transition-all duration-[500ms]
-              ${isRight || inView ? 'opacity-100 max-h-40' : 'opacity-0 max-h-0'}
+              ${isRight || inView ? 'opacity-100 max-h-40' : 'opacity-100 max-h-40'}
               md:group-hover:opacity-100 md:group-hover:max-h-40
             `}
           >
