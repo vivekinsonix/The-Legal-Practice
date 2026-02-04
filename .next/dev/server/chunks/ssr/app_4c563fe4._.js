@@ -1082,6 +1082,7 @@ function useInView(options = {
 "[project]/app/(pages)/bloghome/blogCard.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// app/components/blog/BlogCard.tsx
 __turbopack_context__.s([
     "default",
     ()=>BlogCard
@@ -1109,7 +1110,12 @@ function BlogCard({ blog, variant }) {
     const isRight = variant === 'right';
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
         ref: ref,
-        className: ` group relative overflow-hidden rounded-sm shadow-xl ${isFeatured ? 'aspect-square' : ''} ${isRight ? 'h-40' : 'aspect-square'}bg-white dark:bg-primary`,
+        className: `
+        group relative overflow-hidden rounded-sm shadow-xl
+        ${isFeatured ? 'aspect-square' : ''}
+        ${isRight ? 'h-[160px]' : 'aspect-square'}
+        bg-white dark:bg-primary
+      `,
         children: [
             isFeatured && blog.video?.[0]?.url && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
                 src: blog.video[0].url,
@@ -1120,7 +1126,7 @@ function BlogCard({ blog, variant }) {
                 className: "h-48 w-full object-cover"
             }, void 0, false, {
                 fileName: "[project]/app/(pages)/bloghome/blogCard.tsx",
-                lineNumber: 36,
+                lineNumber: 46,
                 columnNumber: 46
             }, this),
             !isRight && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1128,58 +1134,83 @@ function BlogCard({ blog, variant }) {
                 alt: blog.title,
                 width: 600,
                 height: 400,
-                className: `w-full transition-transform duration-500 ${inView ? 'scale-105' : 'scale-100'} md:group-hover:scale-105`
+                className: `
+            w-full transition-transform duration-[500ms]
+            ${inView ? 'scale-105' : 'scale-100'}
+            md:group-hover:scale-105
+          `
             }, void 0, false, {
                 fileName: "[project]/app/(pages)/bloghome/blogCard.tsx",
-                lineNumber: 37,
-                columnNumber: 20
+                lineNumber: 50,
+                columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: ` absolute inset-x-0 bottom-0 text-left duration-500 bg-linear-to-t from-white via-white to-secondary-50/90 backdrop-blur-md transition-all ease-linear ${isRight ? 'h-full px-5 py-4' : inView ? 'h-full px-7 py-10' : isFeatured ? 'h-27.5 md:h-60 px-5 py-4' : 'h-30 px-5 py-1'} md:group-hover:h-full md:group-hover:px-7 md:group-hover:py-10`,
+                className: `
+          absolute inset-x-0 bottom-0 text-left duration-[500ms]
+          bg-gradient-to-t from-white via-white to-primary-50/90
+          dark:from-secondary-dark/95 dark:via-white dark:to-primary-50/90
+          backdrop-blur-md dark:text-white
+          transition-all ease-linear
+
+          ${isRight ? 'h-full px-5 py-4' : inView ? 'h-full px-7 py-10' : isFeatured ? 'h-[110px] md:h-[240px] px-5 py-4' : 'h-[120px] px-5 py-1'}
+
+          md:group-hover:h-full
+          md:group-hover:px-7
+          md:group-hover:py-10
+        `,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "mb-1 text-sm opacity-80",
                         children: formatDate(blog.publishedAt)
                     }, void 0, false, {
                         fileName: "[project]/app/(pages)/bloghome/blogCard.tsx",
-                        lineNumber: 39,
+                        lineNumber: 79,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                         className: "text-xl",
-                        children: blog.title.length > 54 ? blog.title.slice(0, 54) + '...' : blog.title
+                        children: blog.title
                     }, void 0, false, {
                         fileName: "[project]/app/(pages)/bloghome/blogCard.tsx",
-                        lineNumber: 40,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, this),
                     blog.description && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: ` mt-4 text-sm overflow-hidden transition-all duration-500 ${isRight || inView ? 'opacity-100 max-h-40' : 'opacity-100 max-h-40'} md:group-hover:opacity-100 md:group-hover:max-h-40`,
+                        className: `
+              mt-4 text-sm overflow-hidden transition-all duration-[500ms]
+              ${isRight || inView ? 'opacity-100 max-h-40' : 'opacity-0 max-h-0'}
+              md:group-hover:opacity-100 md:group-hover:max-h-40
+            `,
                         children: blog.description
                     }, void 0, false, {
                         fileName: "[project]/app/(pages)/bloghome/blogCard.tsx",
-                        lineNumber: 41,
-                        columnNumber: 30
+                        lineNumber: 84,
+                        columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         href: `/blogs/detail/${blog.slug}`,
-                        className: ` mt-4 block font-semibold text-primary-200 ${inView || isRight ? 'opacity-100' : 'opacity-0'} transition-opacity duration-500 md:group-hover:opacity-100`,
+                        className: `
+            mt-4 block font-semibold text-primary-200
+            ${inView || isRight ? 'opacity-100' : 'opacity-0'}
+            transition-opacity duration-500
+            md:group-hover:opacity-100
+          `,
                         children: "Read More →"
                     }, void 0, false, {
                         fileName: "[project]/app/(pages)/bloghome/blogCard.tsx",
-                        lineNumber: 42,
+                        lineNumber: 95,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/(pages)/bloghome/blogCard.tsx",
-                lineNumber: 38,
+                lineNumber: 64,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/(pages)/bloghome/blogCard.tsx",
-        lineNumber: 35,
+        lineNumber: 36,
         columnNumber: 5
     }, this);
 }
@@ -1509,7 +1540,7 @@ function BlogsHomePage() {
                                             children: rightBlogs.map((blog)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
                                                     className: "group relative text-left h-40 overflow-hidden rounded-sm bg-white shadow-xl",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "absolute inset-0 flex flex-col justify-end bg-linear-to-t from-white via-white to-transparent  px-5 py-4  md:translate-y-[20%] translate-y-[0%] transition-transform duration-[500ms] ease-out group-hover:translate-y-0",
+                                                        className: "absolute inset-0 flex flex-col justify-end bg-linear-to-t from-white via-white to-white  px-5 py-4  md:translate-y-[20%] translate-y-[0%] transition-transform duration-[500ms] ease-out group-hover:translate-y-0",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 className: "mb-2 text-sm dark:text-gray-300 opacity-80",

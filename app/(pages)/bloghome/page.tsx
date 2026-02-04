@@ -152,7 +152,7 @@ export default function BlogsHomePage() {
                 <aside className="md:col-span-2 space-y-4">
                   {rightBlogs.map((blog) => (
                     <article key={blog.slug} className="group relative text-left h-40 overflow-hidden rounded-sm bg-white shadow-xl">
-                      <div className="absolute inset-0 flex flex-col justify-end bg-linear-to-t from-white via-white to-transparent  px-5 py-4  md:translate-y-[20%] translate-y-[0%] transition-transform duration-[500ms] ease-out group-hover:translate-y-0">
+                      <div className="absolute inset-0 flex flex-col justify-end bg-linear-to-t from-white via-white to-white  px-5 py-4  md:translate-y-[20%] translate-y-[0%] transition-transform duration-[500ms] ease-out group-hover:translate-y-0">
                         <p className="mb-2 text-sm dark:text-gray-300 opacity-80">{formatDate(blog.publishedAt)}</p>
 
                         <h2 className="text-xl">{blog.title}</h2>
