@@ -11,6 +11,7 @@ import GoogleTranslateLoader from '../translater/GoogleTranslateLoader';
 import LanguageDropdown from '../translater/LanguageDropdown';
 import AppDrawer from './AppDrawer';
 import CaseStudiesDropdown from './CaseStudiesDropdown';
+import ClientInfo from './ClientInfo';
 // import WhoWeServe from './WhoWeServe';
 
 const Logo = () => {
@@ -60,24 +61,19 @@ const Header: React.FC = () => {
           <div className="hidden md:flex gap-8 items-center">
             <CaseStudiesDropdown openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} setIsMenuOpen={() => setIsMenuOpen(false)} />
 
-            <Link href="/#clients" className={` ${navTextColor} hover:text-blue-400`}>
-              Our Clients
-            </Link>
-
-            <Link href="/#projects" className={` ${navTextColor} hover:text-blue-400`}>
-              Projects
-            </Link>
-
-            <Link href="/#teams" className={` ${navTextColor} hover:text-blue-400`}>
+            <Link href="/#teams" className={` ${navTextColor} hover:text-primary`}>
               Teams
             </Link>
+            <ClientInfo openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} setIsMenuOpen={() => setIsMenuOpen(false)} />
+            {/* <Link href="/#clients" className={` ${navTextColor} hover:text-primary`}>
+              Our Clients
+            </Link> */}
 
-            <Link href="/blogs" className={` ${navTextColor} hover:text-blue-400`}>
-              Blogs
+            <Link href="#" className={` ${navTextColor} hover:text-primary`}>
+              FAQs
             </Link>
-
-            <Link href="/contact" className={` ${navTextColor} hover:text-blue-400`}>
-              Contact Us
+            <Link href="/blogs" className={` ${navTextColor} hover:text-primary`}>
+              Blogs
             </Link>
           </div>
 
@@ -90,9 +86,7 @@ const Header: React.FC = () => {
               <Button outline>Contact Us</Button>
             </Link>
           </div>
-          <div className="flex md:hidden items-center w-xl justify-end">
-            <LanguageDropdown />
-          </div>
+          <div className="flex md:hidden items-center w-xl justify-end">{/* <LanguageDropdown /> */}</div>
           {/* Mobile Toggle */}
           <NavbarToggle onClick={() => setIsMenuOpen((prev) => !prev)} />
         </div>
@@ -100,17 +94,17 @@ const Header: React.FC = () => {
         {/* Mobile Menu */}
         <NavbarCollapse className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden text-center px-3`}>
           <CaseStudiesDropdown openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} setIsMenuOpen={() => setIsMenuOpen(false)} />
-          <Link href="/#projects" className={`inline-block text-left mt-3  pb-4 ${navTextColor} hover:text-blue-400`}>
+          <Link href="/#projects" className={`inline-block text-left mt-3  pb-4 ${navTextColor} hover:text-primary`}>
             Projects
           </Link>
 
-          <Link href="/#teams" className={`inline-block text-left mt-3   pb-4 ${navTextColor} hover:text-blue-400`}>
+          <Link href="/#teams" className={`inline-block text-left mt-3   pb-4 ${navTextColor} hover:text-primary`}>
             Teams
           </Link>
-          <Link href="#blogs" onClick={() => setIsMenuOpen(false)} className={`inline-block text-left mt-3   pb-4 ${navTextColor} hover:text-blue-400`}>
+          <Link href="#blogs" onClick={() => setIsMenuOpen(false)} className={`inline-block text-left mt-3   pb-4 ${navTextColor} hover:text-primary`}>
             Blogs
           </Link>
-          <Link href="/contact" onClick={() => setIsMenuOpen(false)} className={`inline-block text-left mt-3 ${navTextColor} hover:text-blue-400`}>
+          <Link href="/contact" onClick={() => setIsMenuOpen(false)} className={`inline-block text-left mt-3 ${navTextColor} hover:text-primary`}>
             Contact Us
           </Link>
           <div className="flex gap-4 my-5 justify-between">

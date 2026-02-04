@@ -50,8 +50,8 @@ export default function Home() {
   return (
     <main className="dark:bg-foreground">
       <Hero subHeading={home_data?.Main?.sub_heading} heading={home_data?.Main?.heading} loading={loading} ourLegacy={home_data?.Our_Legacy || {}} coreDifferentiars={home_data?.Our_Core_Differentiators || []} onSchedule={handleScheduleClick} />
-      <ProjectsHome />
-      <Clients />
+      {/* <ProjectsHome /> */}
+      {/* <Clients /> */}
       <ServicesType />
       <PartnerAdvisoryCouncil />
       <BlogsHomePage />

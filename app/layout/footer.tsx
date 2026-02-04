@@ -7,6 +7,7 @@ import NewsletterModal from '../(pages)/newsletter/news-letter';
 import ResponsibleDisclosureModal from '../components/responsible-disclosure/ResponsibleDisclosureModal';
 import CookiePreferencesModal from '../cookie-preferences/CookiePreferencesModal';
 import { apiClient } from '../services/apiService';
+import { Facebook, FacebookIcon, Instagram, Linkedin } from 'lucide-react';
 
 const FollowIcons = React.memo(() => {
   const openLink = useCallback((url: string) => {
@@ -14,13 +15,16 @@ const FollowIcons = React.memo(() => {
   }, []);
 
   return (
-    <div className="flex gap-2 text-xl">
+    <div className="flex gap-3 text-xl">
       <Tooltip className=" shadow-lg" content="Facebook" placement="top">
-        <img src="/svgs/facebook.svg" alt="facebook" className="w-9 h-9 cursor-pointer hover:scale-130" onClick={() => openLink('https://www.facebook.com/Dolcera')} />
+        <FacebookIcon className="w-7 h-7 cursor-pointer hover:scale-130 text-white" onClick={() => openLink('https://www.facebook.com/people/The-Legal-Practice-Solicitors/')} />
       </Tooltip>
 
-      <Tooltip className="shadow-lg" content="X (Twitter)" placement="top">
-        <img src="/svgs/twitter.svg" alt="Twitter" className="w-9 h-9 cursor-pointer hover:scale-130" onClick={() => openLink('https://x.com/dolcera')} />
+      <Tooltip className="shadow-lg" content="Instagram" placement="top">
+        <Instagram className="w-7 h-7 cursor-pointer text-white hover:scale-130" onClick={() => openLink('https://www.instagram.com/thelegalpractice?igsh=NnFwdmp4N2VkYmpx')} />
+      </Tooltip>
+      <Tooltip className="shadow-lg" content="Linkedin" placement="top">
+        <Linkedin className="w-7 h-7 cursor-pointer text-white hover:scale-130" onClick={() => openLink('https://www.linkedin.com/company/888468/admin/dashboard/')} />
       </Tooltip>
     </div>
   );
@@ -108,7 +112,7 @@ export default function Footer() {
   }
 
   return (
-    <footer className="dark:bg-secondary-dark bg-primary-900 dark:text-white pt-16 pb-10">
+    <footer className="dark:bg-secondary bg-secondary dark:text-white pt-16 pb-10">
       <div className="container mx-auto md:px-0 px-2 grid grid-cols-1 md:grid-cols-4 gap-10">
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-3 mt-0">
@@ -188,9 +192,13 @@ export default function Footer() {
         </div>
 
         {/* How-to-contact section */}
-        <div>
-          <h3 className="text-2xl font-semibold mb-2 text-white !text-white">How can we assist you?</h3>
-          <p className="text-gray-300 mb-6 text-md leading-relaxed">We value the opportunity to connect with you. Please submit your inquiries and feedback, and our experienced professionals are ready to assist you.</p>
+        <div className="!text-white">
+          <h3 className="text-2xl font-semibold mb-2 text-white !text-white ">Visit Us</h3>
+          <p className="text-gray-300 text-md font-extrabold leading-relaxed">
+            <strong>The Legal Practice Ltd</strong>{' '}
+          </p>
+          <p>122 – 126 Wembley Park Drive, Wembley Park,</p>
+          <p>Greater London, HA9 8HP</p>
           {/* <Button className="hover:scale-110">Contact Us</Button> */}
         </div>
       </div>

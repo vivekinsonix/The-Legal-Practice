@@ -39,7 +39,7 @@ export default function BlogCard({ blog, variant }: { blog: Blog; variant: Varia
         group relative overflow-hidden rounded-sm shadow-xl
         ${isFeatured ? 'aspect-square' : ''}
         ${isRight ? 'h-[160px]' : 'aspect-square'}
-        bg-white dark:bg-primary
+        bg-white dark:bg-white
       `}
     >
       {/* VIDEO (FEATURED ONLY) */}
@@ -66,7 +66,7 @@ export default function BlogCard({ blog, variant }: { blog: Blog; variant: Varia
           absolute inset-x-0 bottom-0 text-left duration-[500ms]
           bg-gradient-to-t from-white via-white to-primary-50/90
           dark:from-secondary-dark/95 dark:via-white dark:to-primary-50/90
-          backdrop-blur-md dark:text-white
+          backdrop-blur-md dark:text-black
           transition-all ease-linear
 
           ${isRight ? 'h-full px-5 py-4' : inView ? 'h-full px-7 py-10' : isFeatured ? 'h-[110px] md:h-[240px] px-5 py-4' : 'h-[120px] px-5 py-1'}

@@ -57,8 +57,8 @@ export default function PartnerAdvisoryCouncil() {
   return (
     <>
       <SeoHead title="Our Team & Advisors - Dolcera" description="Meet Dolcera's expert team and advisory council. Leading professionals in patent analytics, intellectual property management, and technology innovation." keywords="Dolcera team, advisors, patent experts, leadership, IP professionals" url={`${typeof window !== 'undefined' ? window.location.origin : ''}/teamshome`} />
-      <section id="teams" className="relative overflow-hidden py-24">
-        <div className="relative text-center mx-auto container px-4">
+      <section id="teams" className="relative overflow-hidden">
+        <div className="relative text-center mx-auto  py-24 px-4">
           {!loading && Array.isArray(teams?.card) && teams?.card?.length > 0 && (
             <div className="absolute inset-0 -z-20">
               <Image src="/bg-teams.png" alt="Background" fill className="object-cover" priority />
@@ -78,47 +78,48 @@ export default function PartnerAdvisoryCouncil() {
               <h1 className="mb-16 text-3xl font-extrabold md:text-5xl">{teams.label}</h1>
             </>
           ) : null}
-
-          <div className="grid grid-cols-1 items-center text-left gap-20 lg:grid-cols-2">
-            {/* LEFT CONTENT */}
-            <div>
-              {loading ? (
-                <>
-                  <div className="h-8 w-72 bg-gray-200 rounded animate-pulse" />
-                  <div className="mt-6 space-y-3">
-                    <TextSkeleton />
-                    <TextSkeleton width="w-5/6" />
-                    <TextSkeleton width="w-2/3" />
-                  </div>
-                  <div className="mt-8 w-40 h-5 bg-gray-200 rounded animate-pulse" />
-                </>
-              ) : teams ? (
-                <>
-                  <h2 className="text-4xl font-semibold tracking-tight">{teams.h1}</h2>
-                  <p className="mt-6 max-w-xl text-md leading-relaxed">{teams.p1}</p>
-
-                  {teams.link && (
-                    <Link href={teams.link} className="mt-8 inline-flex items-center gap-2 text-base font-medium text-primary hover:text-primary-900">
-                      Meet the Advisors <span className="text-xl">›</span>
-                    </Link>
-                  )}
-                </>
-              ) : null}
-            </div>
-
-            {/* RIGHT GRID */}
-            <div className="grid grid-cols-3 gap-6">
-              {loading
-                ? Array.from({ length: 6 }).map((_, i) => <ImageSkeleton key={i} />)
-                : advisors.map((src, i) => (
-                    <div
-                      key={i}
-                      className="relative aspect-square overflow-hidden rounded-2xl
-                    bg-linear-to-br from-indigo-100 via-white to-pink-100"
-                    >
-                      <Image src={src} alt="Advisor" fill className="object-cover" />
+          <div className="container mx-auto">
+            <div className="grid grid-cols-1 items-center text-left gap-20 lg:grid-cols-2 ">
+              {/* LEFT CONTENT */}
+              <div>
+                {loading ? (
+                  <>
+                    <div className="h-8 w-72 bg-gray-200 rounded animate-pulse" />
+                    <div className="mt-6 space-y-3">
+                      <TextSkeleton />
+                      <TextSkeleton width="w-5/6" />
+                      <TextSkeleton width="w-2/3" />
                     </div>
-                  ))}
+                    <div className="mt-8 w-40 h-5 bg-gray-200 rounded animate-pulse" />
+                  </>
+                ) : teams ? (
+                  <>
+                    <h2 className="text-4xl font-semibold tracking-tight">{teams.h1}</h2>
+                    <p className="mt-6 max-w-xl text-md leading-relaxed">{teams.p1}</p>
+
+                    {teams.link && (
+                      <Link href={teams.link} className="mt-8 inline-flex items-center gap-2 text-base font-medium text-primary hover:text-primary-900">
+                        Meet the Advisors <span className="text-xl">›</span>
+                      </Link>
+                    )}
+                  </>
+                ) : null}
+              </div>
+
+              {/* RIGHT GRID */}
+              <div className="grid grid-cols-3 gap-6">
+                {loading
+                  ? Array.from({ length: 6 }).map((_, i) => <ImageSkeleton key={i} />)
+                  : advisors.map((src, i) => (
+                      <div
+                        key={i}
+                        className="relative aspect-square overflow-hidden rounded-2xl
+                    bg-linear-to-br from-indigo-100 via-white to-pink-100"
+                      >
+                        <Image src={src} alt="Advisor" fill className="object-cover" />
+                      </div>
+                    ))}
+              </div>
             </div>
           </div>
         </div>

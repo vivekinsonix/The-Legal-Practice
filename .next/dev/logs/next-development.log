@@ -644,3 +644,442 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [04:24:55.317] Browser ERROR   Error fetching footer data: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://legal-practice-be-strapi.onrender.com/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/footer?populate=*","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1935:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2449:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3253:49)","status":404}
 [04:25:54.869] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
 [04:27:27.807] Server  LOG      ✓ Compiled in 325ms
+[04:30:50.070] Server  LOG      ✓ Compiled in 360ms
+[04:31:18.356] Server  LOG      ✓ Compiled in 270ms
+[04:32:16.358] Server  LOG      ✓ Compiled in 240ms
+[04:36:34.647] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:36:35.004] Browser WARN    Image with src "/logo/The-legal-practice-logo-scaled.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:36:35.004] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:36:35.004] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:36:37.487] Browser ERROR   Error fetching footer data: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://legal-practice-be-strapi.onrender.com/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/footer?populate=*","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1935:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2449:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3253:49)","status":404}
+[04:41:59.940] Server  LOG      ✓ Compiled in 554ms
+[04:42:01.704] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:42:01.979] Browser WARN    Image with src "/logo/The-legal-practice-logo-scaled.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:42:01.979] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:42:02.577] Browser ERROR   Error fetching footer data: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://legal-practice-be-strapi.onrender.com/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/footer?populate=*","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1935:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2449:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3253:49)","status":404}
+[04:42:05.740] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:46:15.338] Server  LOG      ✓ Compiled in 604ms
+[04:48:20.468] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:48:20.730] Browser WARN    Image with src "/logo/The-legal-practice-logo-scaled.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:48:20.894] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:48:20.894] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:48:22.023] Browser ERROR   Error fetching footer data: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://legal-practice-be-strapi.onrender.com/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/footer?populate=*","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1935:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2449:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3253:49)","status":404}
+[04:49:05.979] Server  LOG      ✓ Compiled in 343ms
+[04:49:07.026] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[04:49:07.026] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[04:50:03.977] Server  LOG      ✓ Compiled in 245ms
+[04:50:05.023] Browser ERROR   uncaughtError: ReferenceError: usePathname is not defined
+[04:50:21.897] Server  LOG      ✓ Compiled in 514ms
+[04:50:21.901] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:50:23.256] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:50:24.032] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:50:24.032] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[04:50:27.022] Browser ERROR   Error fetching footer data: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://legal-practice-be-strapi.onrender.com/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/footer?populate=*","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1935:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2449:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3253:49)","status":404}
+[04:51:05.981] Server  LOG      ✓ Compiled in 219ms
+[04:51:06.842] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:51:47.420] Server  LOG      ✓ Compiled in 190ms
+[04:51:48.025] Browser ERROR   uncaughtError: ReferenceError: link is not defined
+[04:52:05.885] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:52:05.886] Server  LOG      ✓ Compiled in 242ms
+[04:52:07.168] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:52:07.924] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:52:08.082] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:52:08.082] Browser WARN    Image with src "/logo/The-legal-practice-logo-scaled.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:52:11.397] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[04:52:11.693] Browser ERROR   Error fetching footer data: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://legal-practice-be-strapi.onrender.com/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/footer?populate=*","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1935:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2449:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3253:49)","status":404}
+[04:52:39.249] Server  LOG      ✓ Compiled in 254ms
+[04:53:12.416] Server  LOG      ✓ Compiled in 416ms
+[04:53:38.299] Server  LOG      ✓ Compiled in 339ms
+[04:53:39.031] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[04:53:40.033] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[04:54:29.814] Server  LOG      ✓ Compiled in 300ms
+[04:55:12.086] Server  LOG      ✓ Compiled in 221ms
+[04:55:26.305] Server  LOG      ✓ Compiled in 219ms
+[04:56:46.670] Server  LOG      ✓ Compiled in 499ms
+[04:56:58.186] Server  LOG      ✓ Compiled in 509ms
+[04:57:06.556] Server  LOG      ✓ Compiled in 561ms
+[04:57:19.572] Server  LOG      ✓ Compiled in 567ms
+[04:57:30.006] Server  LOG      ✓ Compiled in 699ms
+[04:57:41.559] Server  LOG      ✓ Compiled in 208ms
+[04:57:59.574] Server  LOG      ✓ Compiled in 551ms
+[04:58:14.990] Server  LOG      ✓ Compiled in 612ms
+[05:00:03.591] Server  LOG      ✓ Compiled in 199ms
+[05:00:36.195] Server  LOG      ✓ Compiled in 611ms
+[05:01:33.279] Server  LOG      ✓ Compiled in 195ms
+[05:02:00.251] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:02:00.613] Browser WARN    Image with src "/logo/The-legal-practice-logo-scaled.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[05:02:00.613] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:02:00.613] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:02:01.982] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[05:02:02.848] Browser ERROR   Error fetching footer data: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://legal-practice-be-strapi.onrender.com/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/footer?populate=*","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1935:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2449:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3253:49)","status":404}
+[05:02:03.346] Browser WARN    Image with src "/team.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[05:02:10.390] Server  LOG      ✓ Compiled in 377ms
+[05:03:04.479] Server  LOG      ✓ Compiled in 209ms
+[05:03:38.571] Server  LOG      ✓ Compiled in 220ms
+[05:06:09.537] Server  LOG      ✓ Compiled in 185ms
+[05:07:15.826] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:07:16.166] Browser WARN    Image with src "/logo/The-legal-practice-logo-scaled.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[05:07:16.166] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:07:16.166] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:07:16.568] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[05:07:16.855] Browser ERROR   Error fetching footer data: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://legal-practice-be-strapi.onrender.com/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/footer?populate=*","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1935:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2449:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3253:49)","status":404}
+[05:09:06.497] Server  LOG      ✓ Compiled in 242ms
+[05:09:08.035] Browser ERROR   ./app/(pages)/teamshome/page.tsx:123:15
+Parsing ecmascript source code failed
+  121 |             </div>
+  122 |           </div>
+> 123 |         </div>
+      |               ^
+> 124 |       </section>
+      | ^^^^^^^
+  125 |     </>
+  126 |   );
+  127 | }
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./app/(pages)/teamshome/page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(pages)/teamshome/page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:09:08.035] Browser ERROR   ./app/(pages)/teamshome/page.tsx:123:15
+Parsing ecmascript source code failed
+  121 |             </div>
+  122 |           </div>
+> 123 |         </div>
+      |               ^
+> 124 |       </section>
+      | ^^^^^^^
+  125 |     </>
+  126 |   );
+  127 | }
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./app/(pages)/teamshome/page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(pages)/teamshome/page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:09:08.035] Browser ERROR   ./app/(pages)/teamshome/page.tsx:123:15
+Parsing ecmascript source code failed
+  121 |             </div>
+  122 |           </div>
+> 123 |         </div>
+      |               ^
+> 124 |       </section>
+      | ^^^^^^^
+  125 |     </>
+  126 |   );
+  127 | }
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./app/(pages)/teamshome/page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(pages)/teamshome/page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:09:08.035] Browser ERROR   ./app/(pages)/teamshome/page.tsx:123:15
+Parsing ecmascript source code failed
+  121 |             </div>
+  122 |           </div>
+> 123 |         </div>
+      |               ^
+> 124 |       </section>
+      | ^^^^^^^
+  125 |     </>
+  126 |   );
+  127 | }
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./app/(pages)/teamshome/page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(pages)/teamshome/page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:09:08.035] Browser ERROR   ./app/(pages)/teamshome/page.tsx:123:15
+Parsing ecmascript source code failed
+  121 |             </div>
+  122 |           </div>
+> 123 |         </div>
+      |               ^
+> 124 |       </section>
+      | ^^^^^^^
+  125 |     </>
+  126 |   );
+  127 | }
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./app/(pages)/teamshome/page.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(pages)/teamshome/page.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:09:14.796] Server  LOG      ✓ Compiled in 233ms
+[05:10:15.745] Server  LOG      ✓ Compiled in 212ms
+[05:10:23.415] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:10:23.627] Browser WARN    Image with src "/logo/The-legal-practice-logo-scaled.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[05:10:23.776] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:10:23.777] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:10:24.591] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[05:10:24.879] Browser ERROR   Error fetching footer data: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://legal-practice-be-strapi.onrender.com/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/footer?populate=*","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1935:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2449:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3253:49)","status":404}
+[05:11:14.262] Server  LOG      ✓ Compiled in 308ms
+[05:12:06.504] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:12:06.683] Browser WARN    Image with src "/logo/The-legal-practice-logo-scaled.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[05:12:06.880] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:12:06.880] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:12:07.277] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[05:12:08.879] Browser ERROR   Error fetching footer data: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://legal-practice-be-strapi.onrender.com/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/footer?populate=*","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1935:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2449:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3253:49)","status":404}
+[05:15:15.896] Server  LOG      ✓ Compiled in 709ms
+[05:15:19.571] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:15:19.916] Browser WARN    Image with src "/logo/The-legal-practice-logo-scaled.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[05:15:19.916] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:15:19.916] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:15:21.188] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[05:15:21.462] Browser ERROR   Error fetching footer data: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://legal-practice-be-strapi.onrender.com/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/footer?populate=*","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1935:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2449:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3253:49)","status":404}
+[05:20:33.645] Server  LOG      ✓ Compiled in 648ms
+[05:20:42.502] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:20:42.847] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:20:42.847] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:20:43.308] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[05:20:44.729] Browser ERROR   Error fetching footer data: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://legal-practice-be-strapi.onrender.com/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/footer?populate=*","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1935:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2449:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3253:49)","status":404}
+[05:21:24.650] Server  LOG      ✓ Compiled in 801ms
+[05:21:26.028] Browser ERROR   Error fetching footer data: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://legal-practice-be-strapi.onrender.com/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/footer?populate=*","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1935:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2449:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3253:49)","status":404}
+[05:21:29.325] Server  LOG      ✓ Compiled in 301ms
+[05:21:31.960] Browser ERROR   Error fetching footer data: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://legal-practice-be-strapi.onrender.com/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/footer?populate=*","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1935:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2449:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3253:49)","status":404}
+[05:24:19.306] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:24:19.546] Browser WARN    Image with src "/logo/The-legal-practice-logo-scaled.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[05:24:19.700] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:24:19.700] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:24:20.663] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[05:24:23.557] Browser ERROR   Error fetching footer data: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://legal-practice-be-strapi.onrender.com/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/footer?populate=*","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1935:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2449:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3253:49)","status":404}
+[05:25:47.283] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:25:47.474] Browser WARN    Image with src "/logo/The-legal-practice-logo-scaled.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[05:25:47.683] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:25:47.683] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:25:48.037] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[05:25:48.424] Browser ERROR   Error fetching footer data: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://legal-practice-be-strapi.onrender.com/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/footer?populate=*","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1935:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2449:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3253:49)","status":404}
+[05:27:01.389] Server  LOG      ✓ Compiled in 262ms
+[05:27:15.974] Server  LOG      ✓ Compiled in 221ms
+[05:28:03.992] Server  LOG      ✓ Compiled in 208ms
+[05:28:11.675] Server  LOG      ✓ Compiled in 353ms
+[05:29:42.694] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:29:43.060] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:29:43.060] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:29:43.841] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[05:31:13.938] Server  LOG      ✓ Compiled in 238ms
+[05:32:51.876] Server  LOG      ✓ Compiled in 489ms
+[05:32:53.031] Browser ERROR   ./app/layout/footer.tsx:22:7
+Parsing ecmascript source code failed
+  20 |         <Facebook  className="w-9 h-9 cursor-pointer hover:scale-130" onClick={() => openLink('https://www.facebook.com/people/The-Legal-Practice-Solicitors/')} />
+  21 |         <
+> 22 |       </Tooltip>
+     |       ^
+  23 |
+  24 |       <Tooltip className="shadow-lg" content="X (Twitter)" placement="top">
+  25 |       <Instagram  className="w-9 h-9 cursor-pointer hover:scale-130" onClick={() => openLink('https://www.facebook.com/people/The-Legal-Practice-Solicitors/')} />
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/layout/footer.tsx
+    ./app/layout.tsx
+[05:32:53.031] Browser ERROR   ./app/layout/footer.tsx:22:8
+Parsing ecmascript source code failed
+  20 |         <Facebook  className="w-9 h-9 cursor-pointer hover:scale-130" onClick={() => openLink('https://www.facebook.com/people/The-Legal-Practice-Solicitors/')} />
+  21 |         <
+> 22 |       </Tooltip>
+     |        ^^^^^^^^^
+  23 |
+  24 |       <Tooltip className="shadow-lg" content="X (Twitter)" placement="top">
+  25 |       <Instagram  className="w-9 h-9 cursor-pointer hover:scale-130" onClick={() => openLink('https://www.facebook.com/people/The-Legal-Practice-Solicitors/')} />
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/layout/footer.tsx
+    ./app/layout.tsx
+[05:32:53.031] Browser ERROR   ./app/layout/footer.tsx:22:7
+Parsing ecmascript source code failed
+  20 |         <Facebook  className="w-9 h-9 cursor-pointer hover:scale-130" onClick={() => openLink('https://www.facebook.com/people/The-Legal-Practice-Solicitors/')} />
+  21 |         <
+> 22 |       </Tooltip>
+     |       ^
+  23 |
+  24 |       <Tooltip className="shadow-lg" content="X (Twitter)" placement="top">
+  25 |       <Instagram  className="w-9 h-9 cursor-pointer hover:scale-130" onClick={() => openLink('https://www.facebook.com/people/The-Legal-Practice-Solicitors/')} />
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/layout/footer.tsx
+    ./app/layout.tsx
+[05:32:53.031] Browser ERROR   ./app/layout/footer.tsx:22:8
+Parsing ecmascript source code failed
+  20 |         <Facebook  className="w-9 h-9 cursor-pointer hover:scale-130" onClick={() => openLink('https://www.facebook.com/people/The-Legal-Practice-Solicitors/')} />
+  21 |         <
+> 22 |       </Tooltip>
+     |        ^^^^^^^^^
+  23 |
+  24 |       <Tooltip className="shadow-lg" content="X (Twitter)" placement="top">
+  25 |       <Instagram  className="w-9 h-9 cursor-pointer hover:scale-130" onClick={() => openLink('https://www.facebook.com/people/The-Legal-Practice-Solicitors/')} />
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/layout/footer.tsx
+    ./app/layout.tsx
+[05:32:53.031] Browser ERROR   ./app/layout/footer.tsx:22:7
+Parsing ecmascript source code failed
+  20 |         <Facebook  className="w-9 h-9 cursor-pointer hover:scale-130" onClick={() => openLink('https://www.facebook.com/people/The-Legal-Practice-Solicitors/')} />
+  21 |         <
+> 22 |       </Tooltip>
+     |       ^
+  23 |
+  24 |       <Tooltip className="shadow-lg" content="X (Twitter)" placement="top">
+  25 |       <Instagram  className="w-9 h-9 cursor-pointer hover:scale-130" onClick={() => openLink('https://www.facebook.com/people/The-Legal-Practice-Solicitors/')} />
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/layout/footer.tsx
+    ./app/layout.tsx
+[05:32:53.031] Browser ERROR   ./app/layout/footer.tsx:22:8
+Parsing ecmascript source code failed
+  20 |         <Facebook  className="w-9 h-9 cursor-pointer hover:scale-130" onClick={() => openLink('https://www.facebook.com/people/The-Legal-Practice-Solicitors/')} />
+  21 |         <
+> 22 |       </Tooltip>
+     |        ^^^^^^^^^
+  23 |
+  24 |       <Tooltip className="shadow-lg" content="X (Twitter)" placement="top">
+  25 |       <Instagram  className="w-9 h-9 cursor-pointer hover:scale-130" onClick={() => openLink('https://www.facebook.com/people/The-Legal-Practice-Solicitors/')} />
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/layout/footer.tsx
+    ./app/layout.tsx
+[05:32:56.468] Server  LOG      ✓ Compiled in 1177ms
+[05:32:58.362] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:32:59.238] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:32:59.238] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[05:32:59.424] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:32:59.424] Browser WARN    Image with src "/logo/The-legal-practice-logo-scaled.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[05:33:25.184] Server  LOG      ✓ Compiled in 267ms
+[05:35:52.271] Server  LOG      ✓ Compiled in 395ms
+[05:35:53.798] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:35:54.380] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:35:54.571] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[05:35:54.571] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:35:54.571] Browser WARN    Image with src "/logo/The-legal-practice-logo-scaled.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[05:36:10.114] Server  LOG      ✓ Compiled in 341ms
+[05:36:31.055] Server  LOG      ✓ Compiled in 407ms
+[05:36:32.383] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:36:32.755] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:36:32.755] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:36:33.072] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[05:38:29.223] Server  LOG      ✓ Compiled in 288ms
+[05:38:49.738] Server  LOG      ✓ Compiled in 222ms
+[05:39:34.639] Server  LOG      ✓ Compiled in 578ms
+[05:39:35.301] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:39:37.024] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:39:37.024] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[05:40:00.033] Server  LOG      ✓ Compiled in 245ms
+[05:40:01.159] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:40:18.232] Server  LOG      ✓ Compiled in 223ms
+[05:40:28.145] Server  LOG      ✓ Compiled in 207ms
+[05:41:56.199] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:41:56.579] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:41:56.579] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:41:57.505] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[05:42:59.117] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:42:59.514] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:42:59.514] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:43:01.620] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[05:44:57.337] Server  LOG      ✓ Compiled in 374ms
+[05:45:17.571] Server  LOG      ✓ Compiled in 223ms
+[05:45:25.682] Server  LOG      ✓ Compiled in 224ms
+[05:45:40.410] Server  LOG      ✓ Compiled in 290ms
+[05:46:19.216] Server  LOG      ✓ Compiled in 458ms
+[05:46:54.657] Server  LOG      ✓ Compiled in 247ms
+[05:47:00.112] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:47:00.520] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:47:00.520] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:47:12.118] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[05:48:37.309] Server  LOG      ✓ Compiled in 212ms
+[05:48:46.424] Server  LOG      ✓ Compiled in 305ms
+[05:48:50.213] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:48:50.545] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:48:50.545] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:48:50.838] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[05:49:11.324] Server  LOG      ✓ Compiled in 188ms
+[05:49:18.531] Server  LOG      ✓ Compiled in 326ms
+[05:49:26.098] Server  LOG      ✓ Compiled in 380ms
+[05:49:51.867] Server  LOG      ✓ Compiled in 244ms
+[05:50:16.111] Server  LOG      ✓ Compiled in 224ms
+[05:50:22.624] Server  LOG      ✓ Compiled in 277ms
+[05:50:39.111] Server  LOG      ✓ Compiled in 217ms
+[05:50:48.248] Server  LOG      ✓ Compiled in 324ms
+[05:51:10.454] Server  LOG      ✓ Compiled in 313ms
+[05:51:14.664] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:51:15.080] Browser WARN    Image with src "http://localhost:3001/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:51:15.080] Browser WARN    Image with src "http://localhost:3001/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:51:15.409] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[05:51:28.081] Server  LOG      ✓ Compiled in 465ms
+[05:52:09.482] Server  LOG      ✓ Compiled in 218ms
+[05:52:33.704] Server  LOG      ✓ Compiled in 253ms
+[05:52:46.567] Server  LOG      ✓ Compiled in 308ms

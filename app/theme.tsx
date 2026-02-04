@@ -127,7 +127,7 @@ const customTheme = createTheme({
   textInput: {
     field: {
       input: {
-        base: 'block w-full  border rounded-xl  focus:outline-none focus:ring-2 disabled:cursor-not-allowed disabled:opacity-50', // custom rounded corners
+        base: 'block w-full  border rounded-xl min-h-11 px-4 !pl-4  focus:outline-none focus:ring-2 disabled:cursor-not-allowed disabled:opacity-50', // custom rounded corners
         colors: {
           gray: 'border-gray-300 bg-gray-50 text-gray-900 placeholder-gray-400 focus:border-primary focus:ring-primary dark:border-gray-50 dark:bg-gray-50 dark:text-black dark:placeholder-gray-400 dark:focus:border-primary dark:focus:ring-primary',
         },

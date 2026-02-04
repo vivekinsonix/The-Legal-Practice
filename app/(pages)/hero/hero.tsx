@@ -104,9 +104,9 @@ export default function Hero({ subHeading, heading, loading, ourLegacy, coreDiff
 
         <div className="relative container mx-auto px-4 lg:px-44">
           <h1 className="mb-6 text-xl tracking-[.64rem] text-white leading-tight  dark:text-white md:text-4xl lg:text-4xl">
-            {heading?.split('AI for IP')[0]}
-            <span className="text-secondary"></span>
-            {heading?.split('AI for IP')[1]}
+            {heading?.split('TRUSTED')[0]}
+            <span className="text-primary">TRUSTED</span>
+            {heading?.split('TRUSTED')[1]}
           </h1>
 
           <p className="mx-auto mb-10 max-w-4xl text-md  text-primary-50 dark:text-gray-300 md:text-xl lg:text-lg">{subHeading}</p>
