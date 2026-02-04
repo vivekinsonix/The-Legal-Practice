@@ -73,7 +73,7 @@ export default function About({ ourLegacy, coreDifferentiars, loading }: Props) 
           </header>
 
           <div className="mt-12 grid grid-cols-1 items-center gap-12 md:mt-16 md:grid-cols-2">
-            <article className="order-2  space-y-6 text-left md:order-1 prose dark:prose-invert" id="about-description">
+            <article className="order-2  space-y-6 text-left md:order-1 prose " id="about-description">
               <RichTextViewer content={ourLegacy?.paragraph_1} />
             </article>
 

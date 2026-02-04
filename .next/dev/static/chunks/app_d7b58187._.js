@@ -1980,7 +1980,7 @@ function About({ ourLegacy, coreDifferentiars, loading }) {
                             className: "mt-12 grid grid-cols-1 items-center gap-12 md:mt-16 md:grid-cols-2",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
-                                    className: "order-2  space-y-6 text-left md:order-1 prose dark:prose-invert",
+                                    className: "order-2  space-y-6 text-left md:order-1 prose ",
                                     id: "about-description",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$richtext$2f$RichTextViewer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["RichTextViewer"], {
                                         content: ourLegacy?.paragraph_1
