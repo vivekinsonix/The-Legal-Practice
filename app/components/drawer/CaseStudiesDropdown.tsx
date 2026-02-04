@@ -72,7 +72,7 @@ const CaseStudiesDropdown: React.FC<Props> = React.memo(({ openDropdown, setOpen
             data.map((item) => (
               <Links
                 key={item.documentId}
-                href={`/solutions/startup/${item?.slug}`}
+                href={`/services/${item?.slug}`}
                 className="block px-4 py-2 text-left text-black hover:text-white hover:bg-primary"
                 onClick={() => {
                   (setOpenDropdown(null), setIsMenuOpen(), closeDrawer());
