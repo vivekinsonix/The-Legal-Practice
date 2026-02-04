@@ -135,7 +135,7 @@ export default function BlogsHomePage() {
       {!loading && blogs?.length > 0 && (
         <section className="w-full py-16 md:py-24 bg-primary-50 dark:bg-foreground ">
           <div className="container mx-auto text-center">
-            <p className="text-sm font-medium uppercase tracking-wider mb-2 text-gray-800 dark:text-gray-400">Dolcera Insights</p>
+            <p className="text-sm font-medium uppercase tracking-wider mb-2 text-gray-800 dark:text-gray-400">The Legal Practice Insights</p>
 
             <h2 className="text-3xl md:text-5xl font-extrabold mb-10 dark:text-white">Thoughts on the Digital Horizon</h2>
 
