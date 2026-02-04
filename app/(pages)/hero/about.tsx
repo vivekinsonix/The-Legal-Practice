@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { memo } from 'react';
 import SeoHead from '../../components/seo/seoHead';
+import { RichTextViewer } from '@/app/components/richtext/RichTextViewer';
 
 interface Props {
   ourLegacy?: any;
@@ -72,10 +73,8 @@ export default function About({ ourLegacy, coreDifferentiars, loading }: Props) 
           </header>
 
           <div className="mt-12 grid grid-cols-1 items-center gap-12 md:mt-16 md:grid-cols-2">
-            <article className="order-2  space-y-6 text-left md:order-1" id="about-description">
-              <p className="text-base leading-relaxed   md:text-md lg:text-md  ">{ourLegacy?.paragraph_1}</p>
-              <p className="text-base leading-relaxed   md:text-md lg:text-md  ">{ourLegacy?.paragraph_2}</p>
-              <p className="text-base leading-relaxed   md:text-md lg:text-md  ">{ourLegacy?.paragraph_3}</p>
+            <article className="order-2  space-y-6 text-left md:order-1 prose dark:prose-invert" id="about-description">
+              <RichTextViewer content={ourLegacy?.paragraph_1} />
             </article>
 
             <figure className="order-1 flex justify-center md:order-2">

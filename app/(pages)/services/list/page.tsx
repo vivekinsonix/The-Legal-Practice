@@ -105,7 +105,7 @@ export default function Page() {
                     {/* Content */}
                     <div className="relative text-left  h-full flex flex-col items-center justify-end text-white group-hover:text-white  p-6 ">
                       <div></div>
-                      <div>
+                      <div className="text-left">
                         <h1 className="font-bold  hover:text-white dark:text-white">{caseStudyTitle}</h1>
                         <p className="text-lg mb-3">{caseStudyDescription}</p>
                       </div>

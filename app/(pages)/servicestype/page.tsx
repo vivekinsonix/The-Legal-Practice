@@ -1,6 +1,7 @@
 'use client';
 
 import { get_case_studies_paginated } from '@/app/services/homePageService';
+import { Button } from 'flowbite-react';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 type CaseStudy = {
@@ -105,13 +106,13 @@ export default function ServicesType() {
                     {/* Content */}
                     <div className="relative text-left  h-full flex flex-col items-center justify-end text-white group-hover:text-white  p-6 ">
                       <div></div>
-                      <div>
+                      <div className="text-left w-full">
                         <h1 className="font-bold  hover:text-white dark:text-white">{caseStudyTitle}</h1>
                         <p className="text-lg mb-3">{caseStudyDescription}</p>
                       </div>
 
                       <div className="w-full flex justify-start mb-3">
-                        <span className="inline-block  bg-secondary rounded-full border-gray-500  px-5 py-2 text-white dark:text-white hover:border-primary-100 hover:shadow-[0_8px_30px_rgba(33,84,255,0.25),_0_0_20px_rgba(75,201,255,0.22)] transition-all duration-250 ease  translate-y-2 group-hover:translate-y-0 transition-all duration-300 text-sm font-semibold uppercase text-pr">Explore Service →</span>
+                        <Button outline>Explore Service →</Button>
                       </div>
                     </div>
                   </Link>
