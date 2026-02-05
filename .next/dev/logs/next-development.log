@@ -106,3 +106,4 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [01:20:48.155] Browser WARN    Image with src "http://localhost:3000/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
 [01:20:48.545] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
 [01:21:14.035] Server  LOG      ✓ Compiled in 310ms
+[01:27:20.708] Server  LOG      ✓ Compiled in 189ms

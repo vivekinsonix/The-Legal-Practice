@@ -2750,7 +2750,7 @@ function Footer() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "container mx-auto px-2 mt-4 border-t border-gray-600 text-center pt-2 cursor-pointer",
-                onClick: ()=>window.open('https://www.insonix.com/'),
+                onClick: ()=>window.open('#'),
                 children: footerData?.copy_right && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "text-xs text-white mt-1",
                     dangerouslySetInnerHTML: {

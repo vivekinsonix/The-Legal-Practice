@@ -212,7 +212,7 @@ export default function Footer() {
       </div>
 
       {/* LOWER SECTION */}
-      <div className="container mx-auto px-2 mt-4 border-t border-gray-600 text-center pt-2 cursor-pointer" onClick={() => window.open('https://www.insonix.com/')}>
+      <div className="container mx-auto px-2 mt-4 border-t border-gray-600 text-center pt-2 cursor-pointer" onClick={() => window.open('#')}>
         {footerData?.copy_right && <p className="text-xs text-white mt-1" dangerouslySetInnerHTML={{ __html: footerData.copy_right }} />}
       </div>
 
