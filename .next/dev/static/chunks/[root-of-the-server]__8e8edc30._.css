@@ -2062,6 +2062,10 @@
     width: 66.6667%;
   }
 
+  .w-2xl {
+    width: var(--container-2xl);
+  }
+
   .w-3 {
     width: calc(var(--spacing) * 3);
   }
@@ -2072,6 +2076,10 @@
 
   .w-3\/6 {
     width: 50%;
+  }
+
+  .w-3xl {
+    width: var(--container-3xl);
   }
 
   .w-4 {
