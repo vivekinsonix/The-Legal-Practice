@@ -131,8 +131,10 @@ export default function Hero({ subHeading, heading, loading, ourLegacy, coreDiff
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <MapPin className="text-primary" />
-                Visit us
+                <Link className="flex items-center gap-2" target="_blank" href="https://maps.app.goo.gl/9oMkLh7Kkh2KPgETA">
+                  <MapPin className="text-primary" />
+                  Visit us
+                </Link>
               </div>
             </div>
           </div>
