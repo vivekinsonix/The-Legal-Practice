@@ -38,7 +38,7 @@ const CaseStudiesDropdown: React.FC<Props> = React.memo(({ openDropdown, setOpen
   }, [isHomePage]);
 
   // Text color logic
-  const navTextColor = isHomePage ? (scrolled ? 'text-black' : 'text-white') : 'text-black';
+  const navTextColor = isHomePage ? (scrolled ? 'text-black' : 'text-black md:text-white') : 'text-black';
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {

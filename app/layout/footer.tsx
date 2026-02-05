@@ -115,7 +115,7 @@ export default function Footer() {
     <footer className="dark:bg-secondary bg-secondary dark:text-white pt-16 pb-10">
       <div className="container mx-auto md:px-0 px-2 grid grid-cols-1 md:grid-cols-4 gap-20">
         <div className="flex flex-col gap-4">
-          <div className="flex items-center gap-3 mt-0">
+          <div className="flex items-center justify-center gap-3 mt-0">
             <div>
               <div className="mb-2"></div>
               <img src="/logo/The-legal-practice-logo-scaled.jpg" alt="insonix" width="330" className=" mb-2 dark:hidden rounded-xl" />
@@ -123,11 +123,11 @@ export default function Footer() {
               <p className="text-gray-300 mb-0 text-md leading-relaxed ">{footerData?.title}</p>
             </div>
           </div>
-          <div>
+          <div className="hidden md:block justify-center">
             <img src="/logo/solicators.png" alt="insonix" width="250" className=" mb-2  rounded-xl" />
           </div>
-          <div className="items-right  flex flex-col gap-1 ">
-            <div className="flex gap-10 ">
+          <div className="items-right  flex flex-col gap-1  text-center md:text-left">
+            <div className="flex gap-10 justify-center md:justify-start">
               <div>
                 <span className="text-sm block font-medium mb-2 text-gray-300">Follow us on</span>
                 <FollowIcons />
@@ -136,7 +136,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col space-y-2 text-white ">
+        <div className="flex flex-col space-y-2 text-white  text-center md:text-left">
           {siteLinks.map((link: any, i: number) => {
             if (link.label === 'Cookie Preferences') {
               return (
@@ -179,7 +179,7 @@ export default function Footer() {
         </div>
 
         {/* Second links column */}
-        <div className="flex flex-col space-y-2 text-white">
+        <div className="flex flex-col space-y-2 text-white text-center md:text-left">
           <Link href="/#about" className="hover:underline">
             About
           </Link>
@@ -194,7 +194,7 @@ export default function Footer() {
         </div>
 
         {/* How-to-contact section */}
-        <div className="!text-white">
+        <div className="!text-white text-center md:text-left">
           <h3 className="text-2xl font-semibold mb-2 text-white !text-white ">Visit Us</h3>
           <p className="text-gray-300 text-md font-extrabold leading-relaxed">
             <strong>The Legal Practice Ltd</strong>{' '}
@@ -205,6 +205,9 @@ export default function Footer() {
 
           <h5 className="text-lg mt-3 font-semibold mb-2 text-white !text-white ">Meeting rooms</h5>
           <p>Rickmansworth, St Albans, Beaconsfield and Berkhamsted</p>
+        </div>
+        <div className="block md:hidden mx-auto">
+          <img src="/logo/solicators.png" alt="insonix" width="250" className=" mb-2  rounded-xl" />
         </div>
       </div>
 

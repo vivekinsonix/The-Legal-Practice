@@ -101,7 +101,7 @@ export default function PartnerAdvisoryCouncil() {
                   </>
                 ) : teams ? (
                   <>
-                    <h2 className="text-4xl font-semibold tracking-tight">{teams.h1}</h2>
+                    <h2 className="md:text-2xl text-xl font-semibold tracking-tight">{teams.h1}</h2>
                     <p className="mt-6 max-w-xl text-md leading-relaxed">{teams.p1}</p>
 
                     {teams.link && (

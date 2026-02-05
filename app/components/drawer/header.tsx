@@ -47,12 +47,12 @@ const Header: React.FC = () => {
   }, [isHomePage]);
 
   // Text color logic
-  const navTextColor = isHomePage ? (scrolled ? 'text-black' : 'text-white') : 'text-black';
+  const navTextColor = isHomePage ? (scrolled ? 'text-black' : 'text-black md:text-white') : 'text-black';
 
   return (
     <>
       <GoogleTranslateLoader />
-      <Navbar fluid rounded className={`fixed top-0 left-0 right-0 z-10 py-2   overflow-visible shadow-none transition-colors duration-300 ${isHomePage ? (scrolled ? 'bg-white shadow dark:bg-white' : 'bg-transparent') : 'bg-white dark:bg-white'}`}>
+      <Navbar fluid rounded className={`fixed top-0 left-0 right-0 z-10 py-2   overflow-visible shadow-none transition-colors duration-300 ${isHomePage ? (scrolled ? 'bg-white shadow dark:bg-white' : 'bg-white shadow dark:bg-white  md:bg-transparent') : 'bg-white dark:bg-white'}`}>
         <div className="flex w-full items-center justify-between gap-2">
           <div className="w-xl md:w-auto">
             <Logo />
@@ -104,13 +104,13 @@ const Header: React.FC = () => {
           <Link href="#blogs" onClick={() => setIsMenuOpen(false)} className={`inline-block text-left mt-3   pb-4 ${navTextColor} hover:text-primary`}>
             Blogs
           </Link>
-          <Link href="/contact" onClick={() => setIsMenuOpen(false)} className={`inline-block text-left mt-3 ${navTextColor} hover:text-primary`}>
-            Contact Us
-          </Link>
-          <div className="flex gap-4 my-5 justify-between">
-            <Button className="w-full" outline onClick={() => window.open('https://www.dolcera.com/simplesaml/module.php/core/loginuserpass.php?AuthState=_281064534eff70ed6675de78d4ef6eaa283cce76a0%3Ahttps%3A%2F%2Fwww.dolcera.com%2Fsimplesaml%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Drajeshwar%26cookieTime%3D1769750257%26RelayState%3Dhttps%253A%252F%252Fwww.dolcera.com%252Fauth%252Findex.php')}>
-              Login
-            </Button>
+
+          <div className="flex gap-4 my-5 w-full justify-between">
+            <Link href="/contact">
+              <Button className="w-full" outline>
+                Contact Us
+              </Button>
+            </Link>
           </div>
         </NavbarCollapse>
       </Navbar>
