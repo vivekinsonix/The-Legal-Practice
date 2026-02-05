@@ -1299,31 +1299,6 @@ function ShareBanner({ shareUrl, position = 'center' }) {
                                         fileName: "[project]/app/components/shareButton/ShareButton.tsx",
                                         lineNumber: 115,
                                         columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$flowbite$2d$react$2f$dist$2f$components$2f$Tooltip$2f$Tooltip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Tooltip"], {
-                                        content: "Teams",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: shareLinks.teams,
-                                            target: "_blank",
-                                            rel: "noopener noreferrer",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                className: "w-10 hover:scale-110 transition-transform duration-200",
-                                                src: "/TEAMS_ICON.svg",
-                                                alt: "Teams"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/components/shareButton/ShareButton.tsx",
-                                                lineNumber: 123,
-                                                columnNumber: 19
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/components/shareButton/ShareButton.tsx",
-                                            lineNumber: 122,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/components/shareButton/ShareButton.tsx",
-                                        lineNumber: 121,
-                                        columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {

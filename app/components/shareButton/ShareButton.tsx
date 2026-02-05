@@ -117,12 +117,12 @@ export default function ShareBanner({ shareUrl, position = 'center' }: ShareBann
                   <img className="w-10 hover:scale-110 transition-transform duration-200" src="/LINKEDIN_ICON.svg" alt="LinkedIn" />
                 </a>
               </Tooltip>
-
+              {/* 
               <Tooltip content="Teams">
                 <a href={shareLinks.teams} target="_blank" rel="noopener noreferrer">
                   <img className="w-10 hover:scale-110 transition-transform duration-200" src="/TEAMS_ICON.svg" alt="Teams" />
                 </a>
-              </Tooltip>
+              </Tooltip> */}
             </div>
           </Card>
 
