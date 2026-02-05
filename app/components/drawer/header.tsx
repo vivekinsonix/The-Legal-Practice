@@ -101,7 +101,7 @@ const Header: React.FC = () => {
           <Link href="/#teams" className={`inline-block text-left mt-3   pb-4 ${navTextColor} hover:text-primary`}>
             Teams
           </Link>
-          <Link href="#blogs" onClick={() => setIsMenuOpen(false)} className={`inline-block text-left mt-3   pb-4 ${navTextColor} hover:text-primary`}>
+          <Link href="/blogs" onClick={() => setIsMenuOpen(false)} className={`inline-block text-left mt-3   pb-4 ${navTextColor} hover:text-primary`}>
             Blogs
           </Link>
 
