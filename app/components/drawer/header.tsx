@@ -107,7 +107,7 @@ const Header: React.FC = () => {
 
           <div className="flex gap-4 my-5 w-full justify-between">
             <Link href="/contact">
-              <Button className="w-full" outline>
+              <Button onClick={() => setIsMenuOpen(false)} className="w-full" outline>
                 Contact Us
               </Button>
             </Link>
