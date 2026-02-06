@@ -5130,6 +5130,14 @@
   }
 
   @media (prefers-color-scheme: dark) {
+    @media (min-width: 48rem) {
+      .dark\:md\:bg-transparent {
+        background-color: #0000;
+      }
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
     @media (min-width: 64rem) {
       .dark\:lg\:bg-transparent {
         background-color: #0000;

@@ -52,7 +52,7 @@ const Header: React.FC = () => {
   return (
     <>
       <GoogleTranslateLoader />
-      <Navbar fluid rounded className={`fixed top-0 left-0 right-0 z-10 py-2   overflow-visible shadow-none transition-colors duration-300 ${isHomePage ? (scrolled ? 'bg-white shadow dark:bg-white' : 'bg-white shadow dark:bg-white  md:bg-transparent') : 'bg-white shadow dark:bg-white'}`}>
+      <Navbar fluid rounded className={`fixed top-0 left-0 right-0 z-10 py-2   overflow-visible shadow-none transition-colors duration-300 ${isHomePage ? (scrolled ? 'bg-white shadow dark:bg-white' : 'bg-white shadow dark:bg-white dark:md:bg-transparent  md:bg-transparent') : 'bg-white shadow dark:bg-white'}`}>
         <div className="flex w-full items-center justify-between gap-2">
           <div className="w-3xl md:w-auto">
             <Logo />
