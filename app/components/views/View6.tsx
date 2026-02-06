@@ -160,7 +160,7 @@ export const VIEW_6 = ({ data, loading }: { data: any; loading: boolean }) => {
                         <div className="mt-auto pt-4">
                           <WhatsAppButton
                             outline
-                            className="w-full"
+                            className="w-full bg-white text-black"
                             label="Book Sprint"
                             payload={{
                               title,
