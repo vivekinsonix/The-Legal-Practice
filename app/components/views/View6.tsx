@@ -117,7 +117,7 @@ export const VIEW_6 = ({ data, loading }: { data: any; loading: boolean }) => {
                   <div key={index} className="shadow-2xl relative mx-2 md:mx-0 flex scale-105 flex-col rounded-xl items-center shadow-2xl hover:scale-110 transition-all">
                     {isPopular ? (
                       /* MOST POPULAR CARD */
-                      <div className="flex h-full w-full flex-col bg-gradient-to-b from-blue-600 to-blue-500 p-4 text-center text-white">
+                      <div className="flex h-full w-full flex-col bg-gradient-to-b from-primary to-primary-light p-4 text-center text-white">
                         {/* Badge */}
                         <span className="self-end bg-white/20 px-2 py-1 text-xs font-medium text-white">{badge || ''}</span>
 
