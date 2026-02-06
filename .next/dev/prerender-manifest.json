@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/services/our-services":{},"/services/power-of-attorney":{},"/services/property-conveyancing":{},"/services/litigations-and-disputes":{},"/services/settlement-agreements-and-employment":{},"/blogs/detail/why-builders-should-have-contracts-with-commercial-clients-for-shop-fittings-and-commercial-premises":{},"/blogs/detail/navigating-the-renters-rights-bill-2024-expert-legal-support-for-landlords-and-tenants":{},"/blogs/detail/power-of-attorney-abuse-case":{},"/blogs/detail/what-to-do-when-a-loved-one-passes-away":{},"/blogs/detail/leaving-a-legacy-why-charitable-gifts-in-your-will-matter-more-than-you-think":{}},"dynamicRoutes":{"/services/[id]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/services/[id]","routeRegex":"^\\/services\\/([^/]+?)(?:\\/)?$","allowHeader":[]},"/blogs/detail/[id]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/blogs/detail/[id]","routeRegex":"^\\/blogs\\/detail\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"667ab1e0325e0ba9be9010f1a1ad11b9","previewModeSigningKey":"f64f342a239d273f061df8892b3132926145325a0723a067cd5098418940daeb","previewModeEncryptionKey":"2867a2c8ef8ea4b56fe5f583157d8b60c5b27a2983a2c5601c2896a9af2d568c"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "d7c66a0ea609b9fa7bb28a21289889a0",
+    "previewModeSigningKey": "2250f0b0b45f70d76173c1c0fd528bb4d7733e3eb5a345a9e6d53010125d6968",
+    "previewModeEncryptionKey": "5474f491e425e090fd1c1e7be125c68d57d45f5cc333c38a88b115cba5c19b75"
+  }
+}

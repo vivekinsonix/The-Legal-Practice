@@ -1,27 +1,6 @@
 {
-  "app": {
-    "[project]/app/(pages)/blogs/detail/[id]/page": [
-      "static/media/7f20430e44eb7422-s.p.bd5bbcc6.woff2",
-      "static/media/38df7484fe560b25-s.p.60f15535.woff2"
-    ],
-    "[project]/app/(pages)/blogs/page": [
-      "static/media/7f20430e44eb7422-s.p.bd5bbcc6.woff2",
-      "static/media/38df7484fe560b25-s.p.60f15535.woff2"
-    ],
-    "[project]/app/(pages)/services/[id]/page": [
-      "static/media/7f20430e44eb7422-s.p.bd5bbcc6.woff2",
-      "static/media/38df7484fe560b25-s.p.60f15535.woff2"
-    ],
-    "[project]/app/_not-found/page": [
-      "static/media/7f20430e44eb7422-s.p.bd5bbcc6.woff2",
-      "static/media/38df7484fe560b25-s.p.60f15535.woff2"
-    ],
-    "[project]/app/page": [
-      "static/media/7f20430e44eb7422-s.p.bd5bbcc6.woff2",
-      "static/media/38df7484fe560b25-s.p.60f15535.woff2"
-    ]
-  },
-  "appUsingSizeAdjust": true,
+  "app": {},
+  "appUsingSizeAdjust": false,
   "pages": {},
   "pagesUsingSizeAdjust": false
 }
