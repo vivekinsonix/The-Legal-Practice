@@ -1205,31 +1205,6 @@ function ShareBanner({ shareUrl, position = 'center' }) {
                                         fileName: "[project]/app/components/shareButton/ShareButton.tsx",
                                         lineNumber: 115,
                                         columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$flowbite$2d$react$2f$dist$2f$components$2f$Tooltip$2f$Tooltip$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Tooltip"], {
-                                        content: "Teams",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: shareLinks.teams,
-                                            target: "_blank",
-                                            rel: "noopener noreferrer",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                className: "w-10 hover:scale-110 transition-transform duration-200",
-                                                src: "/TEAMS_ICON.svg",
-                                                alt: "Teams"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/components/shareButton/ShareButton.tsx",
-                                                lineNumber: 123,
-                                                columnNumber: 19
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/components/shareButton/ShareButton.tsx",
-                                            lineNumber: 122,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/components/shareButton/ShareButton.tsx",
-                                        lineNumber: 121,
-                                        columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
@@ -1835,7 +1810,7 @@ const VIEW_1 = ({ data, loading })=>{
                 const hasImage = !!item?.image?.url;
                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                     id: item.view_name.toLowerCase().replace(/[\/&]/g, '').replace(/\s+/g, '-'),
-                    className: `container prose prose-headings:mt-0 mx-auto max-w-7xl items-center gap-10 px-0  dark:bg-primary dark:text-white
+                    className: `container prose prose-headings:mt-0 mx-auto max-w-7xl items-center gap-10 px-0  dark:bg-white dark:text-black
               ${hasImage ? 'grid md:grid-cols-1' : 'grid grid-cols-1'}
             `,
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4504,7 +4479,7 @@ const VIEW_6 = ({ data, loading })=>{
             }, ("TURBOPACK compile-time value", void 0)),
             !loading && view_name && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: view_name?.toLowerCase()?.replace(/[\/&]/g, '').replace(/\s+/g, '-'),
-                className: "mx-auto prose prose-headings:mt-0 bg-white dark:bg-primary px-4 dark:text-white py-12",
+                className: "container mx-auto max-w-7xl prose prose-headings:mt-0 bg-white dark:bg-primary px-4 dark:text-white py-12",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "mx-auto max-w-7xl",
                     children: [
@@ -4523,7 +4498,7 @@ const VIEW_6 = ({ data, loading })=>{
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "mt-2 mb-5 text-sm dark:text-gray-300",
+                            className: "mt-2  text-sm dark:text-gray-300",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$richtext$2f$RichTextViewer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["RichTextViewer"], {
                                 content: title || ''
                             }, void 0, false, {
@@ -4542,100 +4517,109 @@ const VIEW_6 = ({ data, loading })=>{
                                 const isPopular = card?.isFamous;
                                 const { title, description, amount, plan, feature_list, badge } = card || {};
                                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "shadow-2xl relative flex scale-105 flex-col rounded-xl items-center shadow-2xl hover:scale-110 transition-all",
                                     children: isPopular ? /* MOST POPULAR CARD */ /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "relative flex scale-105 flex-col items-center rounded-2xl bg-gradient-to-b from-blue-600 to-blue-500 p-8 text-center text-white shadow-2xl hover:scale-110 transition-all",
+                                        className: "flex h-full w-full flex-col bg-gradient-to-b from-blue-600 to-blue-500 p-4 text-center text-white",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "absolute top-4 right-4 rounded-full bg-white/20 px-2 py-1 text-xs font-medium text-white",
+                                                className: "self-end bg-white/20 px-2 py-1 text-xs font-medium text-white",
                                                 children: badge || ''
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/views/View6.tsx",
-                                                lineNumber: 121,
+                                                lineNumber: 122,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             title && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "mb-3 text-2xl font-semibold",
+                                                className: "mt-4 text-2xl font-semibold",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$richtext$2f$RichTextViewer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["RichTextViewer"], {
-                                                    content: title || ''
+                                                    content: title
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/views/View6.tsx",
-                                                    lineNumber: 125,
+                                                    lineNumber: 127,
                                                     columnNumber: 29
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/views/View6.tsx",
-                                                lineNumber: 124,
+                                                lineNumber: 126,
                                                 columnNumber: 27
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             description && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "mb-6 text-blue-100",
+                                                className: "text-blue-100",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$richtext$2f$RichTextViewer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["RichTextViewer"], {
-                                                    content: description || ''
+                                                    content: description
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/views/View6.tsx",
-                                                    lineNumber: 130,
+                                                    lineNumber: 134,
                                                     columnNumber: 29
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/views/View6.tsx",
-                                                lineNumber: 129,
+                                                lineNumber: 133,
                                                 columnNumber: 27
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             amount && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "mb-4 text-3xl font-bold",
+                                                className: "text-3xl font-bold",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$richtext$2f$RichTextViewer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["RichTextViewer"], {
-                                                    content: amount || ''
+                                                    content: amount
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/views/View6.tsx",
-                                                    lineNumber: 135,
+                                                    lineNumber: 141,
                                                     columnNumber: 29
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/views/View6.tsx",
-                                                lineNumber: 134,
+                                                lineNumber: 140,
                                                 columnNumber: 27
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             plan && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "mb-6 text-sm text-blue-100",
+                                                className: "text-sm text-blue-100",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$richtext$2f$RichTextViewer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["RichTextViewer"], {
-                                                    content: plan || ''
+                                                    content: plan
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/views/View6.tsx",
-                                                    lineNumber: 140,
+                                                    lineNumber: 148,
                                                     columnNumber: 29
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/views/View6.tsx",
-                                                lineNumber: 139,
+                                                lineNumber: 147,
                                                 columnNumber: 27
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             feature_list && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                className: "mb-6 space-y-2 text-left text-blue-50",
+                                                className: "mt-2 space-y-2 text-left text-blue-50",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$richtext$2f$RichTextViewer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["RichTextViewer"], {
-                                                    content: feature_list || ''
+                                                    content: feature_list
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/views/View6.tsx",
-                                                    lineNumber: 146,
+                                                    lineNumber: 155,
                                                     columnNumber: 29
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/views/View6.tsx",
-                                                lineNumber: 145,
+                                                lineNumber: 154,
                                                 columnNumber: 27
                                             }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$whatsapp$2f$WhatsAppButton$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["WhatsAppButton"], {
-                                                outline: true,
-                                                label: "Book Sprint",
-                                                payload: {
-                                                    title,
-                                                    amount,
-                                                    plan,
-                                                    source: 'Pricing - Popular Plan',
-                                                    pageUrl: ("TURBOPACK compile-time falsy", 0) ? "TURBOPACK unreachable" : ''
-                                                }
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "mt-auto pt-4",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$whatsapp$2f$WhatsAppButton$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["WhatsAppButton"], {
+                                                    outline: true,
+                                                    className: "w-full",
+                                                    label: "Book Sprint",
+                                                    payload: {
+                                                        title,
+                                                        amount,
+                                                        plan,
+                                                        source: 'Pricing - Popular Plan',
+                                                        pageUrl: ("TURBOPACK compile-time falsy", 0) ? "TURBOPACK unreachable" : ''
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/components/views/View6.tsx",
+                                                    lineNumber: 161,
+                                                    columnNumber: 27
+                                                }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/views/View6.tsx",
-                                                lineNumber: 150,
+                                                lineNumber: 160,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
@@ -4644,105 +4628,113 @@ const VIEW_6 = ({ data, loading })=>{
                                         lineNumber: 120,
                                         columnNumber: 23
                                     }, ("TURBOPACK compile-time value", void 0)) : /* NORMAL CARD */ /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "relative flex flex-col items-center rounded-2xl border-0 bg-white dark:bg-secondary-dark p-8 text-center shadow-md  hover:shadow-xl hover:scale-110 transition-all",
+                                        className: "flex w-full flex-col border-0 bg-white h-full dark:bg-secondary-dark p-4 text-center shadow-md  hover:shadow-xl hover:scale-110 transition-all",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "absolute top-4 right-4 rounded-full bg-blue-100 px-2 py-1 text-xs font-medium text-blue-600",
+                                                className: "absolute top-4 right-4  bg-blue-100 px-2 py-1 text-xs font-medium text-blue-600",
                                                 children: badge || ''
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/views/View6.tsx",
-                                                lineNumber: 165,
+                                                lineNumber: 178,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             title && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "mb-3 text-2xl font-semibold",
+                                                className: " text-2xl !mt-4 font-semibold",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$richtext$2f$RichTextViewer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["RichTextViewer"], {
                                                     content: title || ''
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/views/View6.tsx",
-                                                    lineNumber: 169,
+                                                    lineNumber: 182,
                                                     columnNumber: 29
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/views/View6.tsx",
-                                                lineNumber: 168,
+                                                lineNumber: 181,
                                                 columnNumber: 27
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             description && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "mb-6 text-gray-600 dark:text-gray-300",
+                                                className: " text-gray-600 dark:text-gray-300",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$richtext$2f$RichTextViewer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["RichTextViewer"], {
                                                     content: description || ''
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/views/View6.tsx",
-                                                    lineNumber: 174,
+                                                    lineNumber: 187,
                                                     columnNumber: 29
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/views/View6.tsx",
-                                                lineNumber: 173,
+                                                lineNumber: 186,
                                                 columnNumber: 27
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             amount && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "mb-4 text-3xl font-bold",
+                                                className: "text-3xl font-bold",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$richtext$2f$RichTextViewer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["RichTextViewer"], {
                                                     content: amount || ''
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/views/View6.tsx",
-                                                    lineNumber: 179,
+                                                    lineNumber: 192,
                                                     columnNumber: 29
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/views/View6.tsx",
-                                                lineNumber: 178,
+                                                lineNumber: 191,
                                                 columnNumber: 27
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             plan && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "mb-6 text-sm text-gray-500 dark:text-gray-400",
+                                                className: " text-sm text-gray-500 dark:text-gray-400",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$richtext$2f$RichTextViewer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["RichTextViewer"], {
                                                     content: plan || ''
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/views/View6.tsx",
-                                                    lineNumber: 184,
+                                                    lineNumber: 197,
                                                     columnNumber: 29
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/views/View6.tsx",
-                                                lineNumber: 183,
+                                                lineNumber: 196,
                                                 columnNumber: 27
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             feature_list && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                className: "mb-6 space-y-2 text-left text-gray-700 dark:text-gray-300",
+                                                className: "mt-0 space-y-2 text-left text-gray-700 dark:text-gray-300",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$richtext$2f$RichTextViewer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["RichTextViewer"], {
                                                     content: feature_list || ''
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/views/View6.tsx",
-                                                    lineNumber: 190,
+                                                    lineNumber: 203,
                                                     columnNumber: 29
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/views/View6.tsx",
-                                                lineNumber: 189,
+                                                lineNumber: 202,
                                                 columnNumber: 27
                                             }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$whatsapp$2f$WhatsAppButton$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["WhatsAppButton"], {
-                                                outline: true,
-                                                label: "Get Started",
-                                                payload: {
-                                                    title,
-                                                    amount,
-                                                    plan,
-                                                    source: 'Pricing - Popular Plan',
-                                                    pageUrl: ("TURBOPACK compile-time falsy", 0) ? "TURBOPACK unreachable" : ''
-                                                }
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "mt-auto pt-4",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$whatsapp$2f$WhatsAppButton$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["WhatsAppButton"], {
+                                                    className: "w-full",
+                                                    outline: true,
+                                                    label: "Get Started",
+                                                    payload: {
+                                                        title,
+                                                        amount,
+                                                        plan,
+                                                        source: 'Pricing - Popular Plan',
+                                                        pageUrl: ("TURBOPACK compile-time falsy", 0) ? "TURBOPACK unreachable" : ''
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/components/views/View6.tsx",
+                                                    lineNumber: 207,
+                                                    columnNumber: 27
+                                                }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/views/View6.tsx",
-                                                lineNumber: 194,
+                                                lineNumber: 206,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/components/views/View6.tsx",
-                                        lineNumber: 164,
+                                        lineNumber: 177,
                                         columnNumber: 23
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, index, false, {
@@ -4861,7 +4853,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
         onSelect(id);
     }, []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-        className: "sticky sm:top-14 md:top-14 top-12 border-b list-none border-gray-100 dark:border-gray-800 dark:text-black shadow-lg   bg-gradient-to-t from-secondary via-secondary to-white bg-gradient-to-t dark:from-secondary-dark dark:via-secondary-dark dark:to-primary dark:text-white",
+        className: "sticky sm:top-16 md:top-16 top-12  bg-gradient-to-t from-cardlight via-cardlight to-white list-none shadow-lg  ",
         "aria-label": "Section Navigation",
         style: {
             zIndex: 8
@@ -4874,7 +4866,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             href: `#${s.id}`,
                             onClick: (e)=>handleClick(e, s.id),
-                            className: `inline-flex whitespace-nowrap items-center gap-2 rounded-xl pr-3 py-2 transition-all ${activeSection === s.id ? 'font-bold text-blue-500 hover:text-primary-200' : 'dark:text-white/70 hover:text-blue-500'}`,
+                            className: `inline-flex whitespace-nowrap items-center gap-2 rounded-xl pr-3 py-2 transition-all ${activeSection === s.id ? 'font-bold text-primary hover:text-primary' : 'dark:text-white/70 hover:text-blue-500'}`,
                             children: s.label
                         }, void 0, false, {
                             fileName: "[project]/app/(pages)/services/[id]/Details.tsx",

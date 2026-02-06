@@ -100,12 +100,12 @@ export const VIEW_6 = ({ data, loading }: { data: any; loading: boolean }) => {
 
       {/* ---------- REAL CONTENT WHEN LOADED ---------- */}
       {!loading && view_name && (
-        <section id={view_name?.toLowerCase()?.replace(/[\/&]/g, '').replace(/\s+/g, '-')} className="mx-auto prose prose-headings:mt-0 bg-white dark:bg-primary px-4 dark:text-white py-12">
+        <section id={view_name?.toLowerCase()?.replace(/[\/&]/g, '').replace(/\s+/g, '-')} className="container mx-auto max-w-7xl prose prose-headings:mt-0 bg-white dark:bg-primary px-4 dark:text-white py-12">
           <div className="mx-auto max-w-7xl">
             <h2 className="dark:text-white">
               <RichTextViewer content={view_name || ''} />
             </h2>
-            <div className="mt-2 mb-5 text-sm dark:text-gray-300">
+            <div className="mt-2  text-sm dark:text-gray-300">
               <RichTextViewer content={title || ''} />
             </div>
             <div className="grid max-w-7xl gap-8 md:grid-cols-3">
@@ -114,94 +114,109 @@ export const VIEW_6 = ({ data, loading }: { data: any; loading: boolean }) => {
                 const { title, description, amount, plan, feature_list, badge } = card || {};
 
                 return (
-                  <div key={index}>
+                  <div key={index} className="shadow-2xl relative flex scale-105 flex-col rounded-xl items-center shadow-2xl hover:scale-110 transition-all">
                     {isPopular ? (
                       /* MOST POPULAR CARD */
-                      <div className="relative flex scale-105 flex-col items-center rounded-2xl bg-gradient-to-b from-blue-600 to-blue-500 p-8 text-center text-white shadow-2xl hover:scale-110 transition-all">
-                        <span className="absolute top-4 right-4 rounded-full bg-white/20 px-2 py-1 text-xs font-medium text-white">{badge || ''}</span>
+                      <div className="flex h-full w-full flex-col bg-gradient-to-b from-blue-600 to-blue-500 p-4 text-center text-white">
+                        {/* Badge */}
+                        <span className="self-end bg-white/20 px-2 py-1 text-xs font-medium text-white">{badge || ''}</span>
 
+                        {/* Title */}
                         {title && (
-                          <h3 className="mb-3 text-2xl font-semibold">
-                            <RichTextViewer content={title || ''} />
+                          <h3 className="mt-4 text-2xl font-semibold">
+                            <RichTextViewer content={title} />
                           </h3>
                         )}
+
+                        {/* Description */}
                         {description && (
-                          <div className="mb-6 text-blue-100">
-                            <RichTextViewer content={description || ''} />
-                          </div>
-                        )}
-                        {amount && (
-                          <div className="mb-4 text-3xl font-bold">
-                            <RichTextViewer content={amount || ''} />
-                          </div>
-                        )}
-                        {plan && (
-                          <div className="mb-6 text-sm text-blue-100">
-                            <RichTextViewer content={plan || ''} />
+                          <div className="text-blue-100">
+                            <RichTextViewer content={description} />
                           </div>
                         )}
 
+                        {/* Amount */}
+                        {amount && (
+                          <div className="text-3xl font-bold">
+                            <RichTextViewer content={amount} />
+                          </div>
+                        )}
+
+                        {/* Plan */}
+                        {plan && (
+                          <div className="text-sm text-blue-100">
+                            <RichTextViewer content={plan} />
+                          </div>
+                        )}
+
+                        {/* Feature List */}
                         {feature_list && (
-                          <ul className="mb-6 space-y-2 text-left text-blue-50">
-                            <RichTextViewer content={feature_list || ''} />
+                          <ul className="mt-2 space-y-2 text-left text-blue-50">
+                            <RichTextViewer content={feature_list} />
                           </ul>
                         )}
 
-                        <WhatsAppButton
-                          outline
-                          label="Book Sprint"
-                          payload={{
-                            title,
-                            amount,
-                            plan,
-                            source: 'Pricing - Popular Plan',
-                            pageUrl: typeof window !== 'undefined' ? window.location.href : '',
-                          }}
-                        />
+                        {/* Spacer pushes button to bottom */}
+                        <div className="mt-auto pt-4">
+                          <WhatsAppButton
+                            outline
+                            className="w-full"
+                            label="Book Sprint"
+                            payload={{
+                              title,
+                              amount,
+                              plan,
+                              source: 'Pricing - Popular Plan',
+                              pageUrl: typeof window !== 'undefined' ? window.location.href : '',
+                            }}
+                          />
+                        </div>
                       </div>
                     ) : (
                       /* NORMAL CARD */
-                      <div className="relative flex flex-col items-center rounded-2xl border-0 bg-white dark:bg-secondary-dark p-8 text-center shadow-md  hover:shadow-xl hover:scale-110 transition-all">
-                        <span className="absolute top-4 right-4 rounded-full bg-blue-100 px-2 py-1 text-xs font-medium text-blue-600">{badge || ''}</span>
+                      <div className="flex w-full flex-col border-0 bg-white h-full dark:bg-secondary-dark p-4 text-center shadow-md  hover:shadow-xl hover:scale-110 transition-all">
+                        <span className="absolute top-4 right-4  bg-blue-100 px-2 py-1 text-xs font-medium text-blue-600">{badge || ''}</span>
 
                         {title && (
-                          <h3 className="mb-3 text-2xl font-semibold">
+                          <h3 className=" text-2xl !mt-4 font-semibold">
                             <RichTextViewer content={title || ''} />
                           </h3>
                         )}
                         {description && (
-                          <div className="mb-6 text-gray-600 dark:text-gray-300">
+                          <div className=" text-gray-600 dark:text-gray-300">
                             <RichTextViewer content={description || ''} />
                           </div>
                         )}
                         {amount && (
-                          <div className="mb-4 text-3xl font-bold">
+                          <div className="text-3xl font-bold">
                             <RichTextViewer content={amount || ''} />
                           </div>
                         )}
                         {plan && (
-                          <div className="mb-6 text-sm text-gray-500 dark:text-gray-400">
+                          <div className=" text-sm text-gray-500 dark:text-gray-400">
                             <RichTextViewer content={plan || ''} />
                           </div>
                         )}
 
                         {feature_list && (
-                          <ul className="mb-6 space-y-2 text-left text-gray-700 dark:text-gray-300">
+                          <ul className="mt-0 space-y-2 text-left text-gray-700 dark:text-gray-300">
                             <RichTextViewer content={feature_list || ''} />
                           </ul>
                         )}
-
-                        <WhatsAppButton
-                          outline
-                          label="Get Started"
-                          payload={{
-                            title,
-                            amount,
-                            plan,
-                            source: 'Pricing - Popular Plan',
-                            pageUrl: typeof window !== 'undefined' ? window.location.href : '',
-                          }}
-                        />
+                        <div className="mt-auto pt-4">
+                          <WhatsAppButton
+                            className="w-full"
+                            outline
+                            label="Get Started"
+                            payload={{
+                              title,
+                              amount,
+                              plan,
+                              source: 'Pricing - Popular Plan',
+                              pageUrl: typeof window !== 'undefined' ? window.location.href : '',
+                            }}
+                          />
+                        </div>
                       </div>
                     )}
                   </div>

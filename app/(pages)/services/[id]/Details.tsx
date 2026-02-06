@@ -89,12 +89,12 @@ const PAGE_HEADER = React.memo(function PageHeader({ activeSection, sections, on
   }, []);
 
   return (
-    <nav className="sticky sm:top-14 md:top-14 top-12 border-b list-none border-gray-100 dark:border-gray-800 dark:text-black shadow-lg   bg-gradient-to-t from-secondary via-secondary to-white bg-gradient-to-t dark:from-secondary-dark dark:via-secondary-dark dark:to-primary dark:text-white" aria-label="Section Navigation" style={{ zIndex: 8 }}>
+    <nav className="sticky sm:top-16 md:top-16 top-12  bg-gradient-to-t from-cardlight via-cardlight to-white list-none shadow-lg  " aria-label="Section Navigation" style={{ zIndex: 8 }}>
       <div className="container mx-auto  md:px-0 px-4 overflow-auto">
         <ul className="text-md flex gap-3 py-3 font-semibold md:gap-6">
           {sections.map((s) => (
             <li key={s.id}>
-              <Link href={`#${s.id}`} onClick={(e) => handleClick(e, s.id)} className={`inline-flex whitespace-nowrap items-center gap-2 rounded-xl pr-3 py-2 transition-all ${activeSection === s.id ? 'font-bold text-blue-500 hover:text-primary-200' : 'dark:text-white/70 hover:text-blue-500'}`}>
+              <Link href={`#${s.id}`} onClick={(e) => handleClick(e, s.id)} className={`inline-flex whitespace-nowrap items-center gap-2 rounded-xl pr-3 py-2 transition-all ${activeSection === s.id ? 'font-bold text-primary hover:text-primary' : 'dark:text-white/70 hover:text-blue-500'}`}>
                 {s.label}
               </Link>
             </li>

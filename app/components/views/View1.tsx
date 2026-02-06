@@ -65,7 +65,7 @@ export const VIEW_1 = ({ data, loading }: { data: any; loading: boolean }) => {
           <section
             key={index}
             id={item.view_name.toLowerCase().replace(/[\/&]/g, '').replace(/\s+/g, '-')}
-            className={`container prose prose-headings:mt-0 mx-auto max-w-7xl items-center gap-10 px-0  dark:bg-primary dark:text-white
+            className={`container prose prose-headings:mt-0 mx-auto max-w-7xl items-center gap-10 px-0  dark:bg-white dark:text-black
               ${hasImage ? 'grid md:grid-cols-1' : 'grid grid-cols-1'}
             `}
           >
