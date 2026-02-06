@@ -100,7 +100,7 @@ export const VIEW_6 = ({ data, loading }: { data: any; loading: boolean }) => {
 
       {/* ---------- REAL CONTENT WHEN LOADED ---------- */}
       {!loading && view_name && (
-        <section id={view_name?.toLowerCase()?.replace(/[\/&]/g, '').replace(/\s+/g, '-')} className="container mx-auto max-w-7xl prose prose-headings:mt-0 bg-white dark:bg-primary px-4 dark:text-white py-12">
+        <section id={view_name?.toLowerCase()?.replace(/[\/&]/g, '').replace(/\s+/g, '-')} className="container mx-auto max-w-7xl prose prose-headings:mt-0 bg-white dark:bg-white px-4 dark:text-black py-12">
           <div className="mx-auto max-w-7xl">
             <h2 className="dark:text-white">
               <RichTextViewer content={view_name || ''} />
@@ -199,7 +199,7 @@ export const VIEW_6 = ({ data, loading }: { data: any; loading: boolean }) => {
                         )}
 
                         {feature_list && (
-                          <ul className="mt-0 space-y-2 text-left text-gray-700 dark:text-gray-300">
+                          <ul className="mt-0 space-y-2 text-left text-gray-700 dark:text-gray-700">
                             <RichTextViewer content={feature_list || ''} />
                           </ul>
                         )}

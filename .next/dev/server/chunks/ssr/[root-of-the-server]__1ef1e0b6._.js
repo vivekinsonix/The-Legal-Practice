@@ -4479,7 +4479,7 @@ const VIEW_6 = ({ data, loading })=>{
             }, ("TURBOPACK compile-time value", void 0)),
             !loading && view_name && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: view_name?.toLowerCase()?.replace(/[\/&]/g, '').replace(/\s+/g, '-'),
-                className: "container mx-auto max-w-7xl prose prose-headings:mt-0 bg-white dark:bg-primary px-4 dark:text-white py-12",
+                className: "container mx-auto max-w-7xl prose prose-headings:mt-0 bg-white dark:bg-white px-4 dark:text-black py-12",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "mx-auto max-w-7xl",
                     children: [
@@ -4695,7 +4695,7 @@ const VIEW_6 = ({ data, loading })=>{
                                                 columnNumber: 27
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             feature_list && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                className: "mt-0 space-y-2 text-left text-gray-700 dark:text-gray-300",
+                                                className: "mt-0 space-y-2 text-left text-gray-700 dark:text-gray-700",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$richtext$2f$RichTextViewer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["RichTextViewer"], {
                                                     content: feature_list || ''
                                                 }, void 0, false, {
