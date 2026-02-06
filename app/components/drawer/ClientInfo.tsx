@@ -108,10 +108,10 @@ const WhoWeServe: React.FC<Props> = React.memo(({ openDropdown, setOpenDropdown,
             </div>
           ) : (
             <>
-              <Links href="/clientform" className="block px-4 py-2 text-left text-black hover:text-white hover:bg-primary" onClick={selectedLink}>
+              <Links href="#" className="block px-4 py-2 text-left text-black hover:text-white hover:bg-primary" onClick={selectedLink}>
                 Fee
               </Links>
-              <Links href="#" className="block px-4 py-2 text-left text-black hover:text-white hover:bg-primary" onClick={selectedLink}>
+              <Links href="/clientform" className="block px-4 py-2 text-left text-black hover:text-white hover:bg-primary" onClick={selectedLink}>
                 Form
               </Links>
             </>

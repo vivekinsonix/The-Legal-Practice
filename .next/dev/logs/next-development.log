@@ -1,3 +1,9 @@
 [00:01:59.128] Server  LOG      ○ Compiling proxy ...
 [00:02:22.011] Server  LOG      ✓ Ready in 101.5s
 [00:08:31.718] Server  LOG      ○ Compiling / ...
+[00:09:29.030] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:30.539] Browser WARN    Image with src "http://localhost:3000/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:30.539] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[00:09:36.373] Browser WARN    Image with src "http://localhost:3000/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:10:10.150] Server  LOG      ✓ Compiled in 690ms
+[00:10:18.748] Server  LOG      ✓ Compiled in 387ms
