@@ -160,8 +160,8 @@ export const VIEW_6 = ({ data, loading }: { data: any; loading: boolean }) => {
                         <div className="mt-auto pt-4">
                           <WhatsAppButton
                             outline
-                            className="w-full bg-white text-black"
-                            label="Book Sprint"
+                            className="w-full bg-white text-black hover:bg-white/80 dark:text-white dark:bg-white hover:dark:bg-white/70"
+                            label="Contact Us"
                             payload={{
                               title,
                               amount,
@@ -207,7 +207,7 @@ export const VIEW_6 = ({ data, loading }: { data: any; loading: boolean }) => {
                           <WhatsAppButton
                             className="w-full"
                             outline
-                            label="Get Started"
+                            label="Contact Us"
                             payload={{
                               title,
                               amount,
