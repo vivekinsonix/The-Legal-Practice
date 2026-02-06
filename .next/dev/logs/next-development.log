@@ -7,3 +7,12 @@
 [00:09:36.373] Browser WARN    Image with src "http://localhost:3000/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
 [00:10:10.150] Server  LOG      ✓ Compiled in 690ms
 [00:10:18.748] Server  LOG      ✓ Compiled in 387ms
+[00:11:34.027] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:34.274] Browser WARN    Image with src "/logo/The-legal-practice-logo-scaled.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:11:34.423] Browser WARN    Image with src "http://localhost:3000/team.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:11:34.423] Browser WARN    Image with src "http://localhost:3000/logo/The-legal-practice-logo-scaled.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:11:35.527] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[00:13:44.136] Server  LOG      ✓ Compiled in 409ms
+[00:14:06.956] Server  LOG      ✓ Compiled in 488ms
+[00:14:17.290] Server  LOG      ✓ Compiled in 420ms

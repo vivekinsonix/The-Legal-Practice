@@ -1,3 +1,4 @@
 {
+  "/(pages)/clientform/page": "app/(pages)/clientform/page.js",
   "/page": "app/page.js"
 }

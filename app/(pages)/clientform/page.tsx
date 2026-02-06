@@ -203,8 +203,7 @@ export default function ClientFormPage() {
           {/* LEFT */}
           <div>
             <p className="text-4xl font-bold mb-4">
-              <span className="text-primary">New Client</span>Intake Form <br />
-              Team of Legal Experts
+              <span className="text-primary">New Client</span> Intake Form <br />
             </p>
 
             <p className="text-slate-600 max-w-md mb-8">we blend expert legal knowledge with personalised service to protect your interests and achieve your goals</p>
@@ -242,7 +241,7 @@ export default function ClientFormPage() {
           <div className="bg-linear-to-br from-primary to-primary-200 rounded-xl p-8 text-white shadow-lg">
             <form className="space-y-5">
               <div className="grid sm:grid-cols-2 gap-4">
-                <TextInput placeholder="Full Name" required name="First Name" />
+                <TextInput placeholder="First Name" required name="First Name" />
                 <TextInput type="text" placeholder="Last Name" name="name" />
                 <TextInput type="email" placeholder="Email Address" name="email" />
                 <TextInput type="text" placeholder="Phone Number" name="name" />
@@ -252,7 +251,7 @@ export default function ClientFormPage() {
 
               <div className="grid sm:grid-cols-2 gap-4">
                 <TextInput placeholder="Country" required name="First Name" />
-                <TextInput type="City" placeholder="Last Name" name="name" />
+                <TextInput type="City" placeholder="City" name="name" />
                 <TextInput type="Postal Code" placeholder="Postal Code" name="Code" />
                 <TextInput type="Date Of Birth" placeholder="Date Of Birth" name="dob" />
               </div>
