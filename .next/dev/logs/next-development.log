@@ -71,3 +71,12 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [01:18:54.127] Server  LOG      ✓ Compiled in 270ms
 [01:19:40.361] Server  LOG      ✓ Compiled in 242ms
 [01:20:40.713] Server  LOG      ✓ Compiled in 200ms
+[01:21:26.638] Browser WARN    Image with src "/logo/The-legal-practice-logo-scaled.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:21:28.607] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[01:22:12.821] Server  LOG      ✓ Compiled in 880ms
+[01:22:16.699] Browser WARN    Image with src "/logo/The-legal-practice-logo-scaled.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:22:18.312] Browser ERROR   unhandledRejection: AxiosError: Request failed with status code 404
+[01:23:01.293] Server  LOG      ✓ Compiled in 525ms
+[01:23:30.694] Server  LOG      ✓ Compiled in 511ms

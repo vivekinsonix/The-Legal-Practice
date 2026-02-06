@@ -995,6 +995,10 @@
     }
   }
 
+  .mx-2 {
+    margin-inline: calc(var(--spacing) * 2);
+  }
+
   .mx-auto {
     margin-inline: auto;
   }
@@ -4515,6 +4519,12 @@
   @media (min-width: 48rem) {
     .md\:col-span-9 {
       grid-column: span 9 / span 9;
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:mx-0 {
+      margin-inline: calc(var(--spacing) * 0);
     }
   }
 

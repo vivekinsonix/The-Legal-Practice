@@ -100,7 +100,7 @@ export const VIEW_6 = ({ data, loading }: { data: any; loading: boolean }) => {
 
       {/* ---------- REAL CONTENT WHEN LOADED ---------- */}
       {!loading && view_name && (
-        <section id={view_name?.toLowerCase()?.replace(/[\/&]/g, '').replace(/\s+/g, '-')} className="container mx-auto max-w-7xl prose prose-headings:mt-0 bg-white dark:bg-white px-4 md:px-0 dark:text-black pb-12 pt-4">
+        <section id={view_name?.toLowerCase()?.replace(/[\/&]/g, '').replace(/\s+/g, '-')} className="container mx-auto max-w-7xl prose prose-headings:mt-0 bg-white dark:bg-white px-0 md:px-0 dark:text-black pb-12 pt-4">
           <div className="mx-auto max-w-7xl">
             <h2 className="dark:text-white mb-10">
               <RichTextViewer content={view_name || ''} />
@@ -114,7 +114,7 @@ export const VIEW_6 = ({ data, loading }: { data: any; loading: boolean }) => {
                 const { title, description, amount, plan, feature_list, badge } = card || {};
 
                 return (
-                  <div key={index} className="shadow-2xl relative flex scale-105 flex-col rounded-xl items-center shadow-2xl hover:scale-110 transition-all">
+                  <div key={index} className="shadow-2xl relative mx-2 md:mx-0 flex scale-105 flex-col rounded-xl items-center shadow-2xl hover:scale-110 transition-all">
                     {isPopular ? (
                       /* MOST POPULAR CARD */
                       <div className="flex h-full w-full flex-col bg-gradient-to-b from-blue-600 to-blue-500 p-4 text-center text-white">

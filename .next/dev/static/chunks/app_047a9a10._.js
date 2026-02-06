@@ -4576,7 +4576,7 @@ const VIEW_6 = ({ data, loading })=>{
             }, ("TURBOPACK compile-time value", void 0)),
             !loading && view_name && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: view_name?.toLowerCase()?.replace(/[\/&]/g, '').replace(/\s+/g, '-'),
-                className: "container mx-auto max-w-7xl prose prose-headings:mt-0 bg-white dark:bg-white px-4 md:px-0 dark:text-black pb-12 pt-4",
+                className: "container mx-auto max-w-7xl prose prose-headings:mt-0 bg-white dark:bg-white px-0 md:px-0 dark:text-black pb-12 pt-4",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "mx-auto max-w-7xl",
                     children: [
@@ -4614,7 +4614,7 @@ const VIEW_6 = ({ data, loading })=>{
                                 const isPopular = card?.isFamous;
                                 const { title, description, amount, plan, feature_list, badge } = card || {};
                                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "shadow-2xl relative flex scale-105 flex-col rounded-xl items-center shadow-2xl hover:scale-110 transition-all",
+                                    className: "shadow-2xl relative mx-2 md:mx-0 flex scale-105 flex-col rounded-xl items-center shadow-2xl hover:scale-110 transition-all",
                                     children: isPopular ? /* MOST POPULAR CARD */ /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex h-full w-full flex-col bg-gradient-to-b from-blue-600 to-blue-500 p-4 text-center text-white",
                                         children: [
