@@ -100,9 +100,9 @@ export const VIEW_6 = ({ data, loading }: { data: any; loading: boolean }) => {
 
       {/* ---------- REAL CONTENT WHEN LOADED ---------- */}
       {!loading && view_name && (
-        <section id={view_name?.toLowerCase()?.replace(/[\/&]/g, '').replace(/\s+/g, '-')} className="container mx-auto max-w-7xl prose prose-headings:mt-0 bg-white dark:bg-white px-4 dark:text-black py-12">
+        <section id={view_name?.toLowerCase()?.replace(/[\/&]/g, '').replace(/\s+/g, '-')} className="container mx-auto max-w-7xl prose prose-headings:mt-0 bg-white dark:bg-white px-4 md:px-0 dark:text-black pb-12 pt-4">
           <div className="mx-auto max-w-7xl">
-            <h2 className="dark:text-white">
+            <h2 className="dark:text-white mb-10">
               <RichTextViewer content={view_name || ''} />
             </h2>
             <div className="mt-2  text-sm dark:text-gray-300">
