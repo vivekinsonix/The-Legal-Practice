@@ -94,7 +94,7 @@ const PAGE_HEADER = React.memo(function PageHeader({ activeSection, sections, on
         <ul className="text-md flex gap-3 py-3 font-semibold md:gap-6">
           {sections.map((s) => (
             <li key={s.id}>
-              <Link href={`#${s.id}`} onClick={(e) => handleClick(e, s.id)} className={`inline-flex whitespace-nowrap items-center gap-2 rounded-xl pr-3 py-2 transition-all ${activeSection === s.id ? 'font-bold text-primary hover:text-primary' : 'dark:text-white/70 hover:text-blue-500'}`}>
+              <Link href={`#${s.id}`} onClick={(e) => handleClick(e, s.id)} className={`inline-flex whitespace-nowrap items-center gap-2 rounded-xl pr-3 py-2 transition-all ${activeSection === s.id ? 'font-bold text-primary hover:text-primary' : 'dark:text-black hover:text-blue-500'}`}>
                 {s.label}
               </Link>
             </li>
