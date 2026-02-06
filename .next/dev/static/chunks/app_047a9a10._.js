@@ -1346,7 +1346,7 @@ __turbopack_context__.s([
 const openWhatsApp = (payload)=>{
     const { title = '', amount = '', plan = '', source = 'Website', pageUrl = '' } = payload;
     const message = `Hi I'm interested in ${title ? `"${title}"` : 'your services'}. ${amount ? `Price: ${amount}` : ''} ${plan ? `Plan: ${plan}` : ''} Source: ${source} ${pageUrl ? `Page: ${pageUrl}` : ''}  .Please share more details.`;
-    const url = `https://wa.me/919357770278?text=${encodeURIComponent(message)}`;
+    const url = `https://wa.me/07880927149?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
 };
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
@@ -4614,9 +4614,9 @@ const VIEW_6 = ({ data, loading })=>{
                                 const isPopular = card?.isFamous;
                                 const { title, description, amount, plan, feature_list, badge } = card || {};
                                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "shadow-2xl relative mx-2 md:mx-0 flex scale-105 flex-col rounded-xl items-center shadow-2xl hover:scale-110 transition-all",
+                                    className: "shadow-2xl relative mx-2 md:mx-0 flex scale-105 flex-col rounded-xl items-center shadow-2xl mb-10 hover:scale-110 transition-all",
                                     children: isPopular ? /* MOST POPULAR CARD */ /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex h-full w-full flex-col bg-gradient-to-b from-blue-600 to-blue-500 p-4 text-center text-white",
+                                        className: "flex h-full w-full flex-col bg-gradient-to-b from-primary to-primary p-4 text-center text-white",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "self-end bg-white/20 px-2 py-1 text-xs font-medium text-white",
@@ -4700,8 +4700,8 @@ const VIEW_6 = ({ data, loading })=>{
                                                 className: "mt-auto pt-4",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$whatsapp$2f$WhatsAppButton$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["WhatsAppButton"], {
                                                     outline: true,
-                                                    className: "w-full",
-                                                    label: "Book Sprint",
+                                                    className: "w-full bg-white text-black hover:bg-white/80  dark:bg-white dark:text-black hover:dark:bg-white/70",
+                                                    label: "Contact Us",
                                                     payload: {
                                                         title,
                                                         amount,
@@ -4810,7 +4810,7 @@ const VIEW_6 = ({ data, loading })=>{
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$whatsapp$2f$WhatsAppButton$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["WhatsAppButton"], {
                                                     className: "w-full",
                                                     outline: true,
-                                                    label: "Get Started",
+                                                    label: "Contact Us",
                                                     payload: {
                                                         title,
                                                         amount,

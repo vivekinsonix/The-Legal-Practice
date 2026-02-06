@@ -122,7 +122,7 @@ export default function ServicesType() {
           </div>
 
           {data?.length > 2 && (
-            <Link href="/services/list" className="mt-10 mx-auto text-center w-full inline-block text-white hover:underline">
+            <Link href="/services/list" className="mt-10 mx-auto text-center w-full inline-block text-primary hover:underline">
               View All Services →
             </Link>
           )}

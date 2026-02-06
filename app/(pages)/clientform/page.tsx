@@ -251,9 +251,9 @@ export default function ClientFormPage() {
 
               <div className="grid sm:grid-cols-2 gap-4">
                 <TextInput placeholder="Country" required name="First Name" />
-                <TextInput type="City" placeholder="City" name="name" />
-                <TextInput type="Postal Code" placeholder="Postal Code" name="Code" />
-                <TextInput type="date" placeholder="Date Of Birth" name="dob" />
+                <TextInput type="text" placeholder="City" name="name" />
+                <TextInput type="text" placeholder="Postal Code" name="Code" />
+                <TextInput type="text" placeholder="Date Of Birth" name="dob" />
               </div>
 
               <div className="mb-6">{process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY ? <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY} onChange={onVerify} ref={captchaRef} /> : <div className="p-4 bg-yellow-100 border border-yellow-400 text-yellow-700 rounded-lg">ReCAPTCHA is not configured. Please set NEXT_PUBLIC_RECAPTCHA_SITE_KEY in your environment variables.</div>}</div>

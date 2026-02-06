@@ -114,7 +114,7 @@ export const VIEW_6 = ({ data, loading }: { data: any; loading: boolean }) => {
                 const { title, description, amount, plan, feature_list, badge } = card || {};
 
                 return (
-                  <div key={index} className="shadow-2xl relative mx-2 md:mx-0 flex scale-105 flex-col rounded-xl items-center shadow-2xl hover:scale-110 transition-all">
+                  <div key={index} className="shadow-2xl relative mx-2 md:mx-0 flex scale-105 flex-col rounded-xl items-center shadow-2xl mb-10 hover:scale-110 transition-all">
                     {isPopular ? (
                       /* MOST POPULAR CARD */
                       <div className="flex h-full w-full flex-col bg-gradient-to-b from-primary to-primary p-4 text-center text-white">

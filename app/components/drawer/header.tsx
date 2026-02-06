@@ -69,7 +69,7 @@ const Header: React.FC = () => {
               Our Clients
             </Link> */}
 
-            <Link href="#" className={` ${navTextColor} hover:text-primary`}>
+            <Link href="/faqs" className={` ${navTextColor} hover:text-primary`}>
               FAQs
             </Link>
             <Link href="/blogs" className={` ${navTextColor} hover:text-primary`}>

@@ -1,6 +1,7 @@
 'use client';
 
-import { get_case_studies_paginated } from '@/app/services/homePageService';
+import { get_case_studies, get_case_studies_paginated } from '@/app/services/homePageService';
+import { Button } from 'flowbite-react';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 type CaseStudy = {
@@ -50,8 +51,8 @@ export default function Page() {
     const fetchCaseStudies = async () => {
       try {
         setLoading(true);
-        const response = await get_case_studies_paginated();
-        const caseStudies = response || [];
+        const response = await get_case_studies();
+        const caseStudies = response?.data || [];
         setData(caseStudies);
         cachedCaseStudies = caseStudies;
       } catch (error) {
@@ -83,10 +84,10 @@ export default function Page() {
   return (
     <>
       {!loading && data?.length > 0 && (
-        <section id="services" className="py-16 md:px-0 px-4 md:py-24 dark:bg-primary-900 bg-gray-300">
+        <section id="services" className="py-16 md:px-0 px-4 md:py-24 dark:bg-white bg-whitw">
           <div className="container mx-auto text-center">
-            <p className="text-sm font-medium text-white mb-2 uppercase tracking-wider"> What We Do</p>
-            <h1 className="text-3xl md:text-5xl text-white dark:text-white font-extrabold leading-tight">Our Services</h1>
+            <p className="text-sm font-medium  mb-2 uppercase tracking-wider"> What We Do</p>
+            <h1 className="text-3xl md:text-5xl  font-extrabold leading-tight">Our Services</h1>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4  mt-10">
               {data.map((item: CaseStudy | any, idx: number) => {
@@ -105,13 +106,13 @@ export default function Page() {
                     {/* Content */}
                     <div className="relative text-left  h-full flex flex-col items-center justify-end text-white group-hover:text-white  p-6 ">
                       <div></div>
-                      <div className="text-left">
+                      <div className="text-left w-full">
                         <h1 className="font-bold  hover:text-white dark:text-white">{caseStudyTitle}</h1>
                         <p className="text-lg mb-3">{caseStudyDescription}</p>
                       </div>
 
                       <div className="w-full flex justify-start mb-3">
-                        <span className="inline-block  bg-secondary rounded-full border-gray-500  px-5 py-2 text-white dark:text-white hover:border-primary-100 hover:shadow-[0_8px_30px_rgba(33,84,255,0.25),_0_0_20px_rgba(75,201,255,0.22)] transition-all duration-250 ease  translate-y-2 group-hover:translate-y-0 transition-all duration-300 text-sm font-semibold uppercase text-pr">Explore Service →</span>
+                        <Button outline>Explore Service →</Button>
                       </div>
                     </div>
                   </Link>
