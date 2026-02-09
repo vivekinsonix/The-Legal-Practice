@@ -313,8 +313,8 @@ export const VIEW_2 = ({ data, loading }: { data?: any; loading: boolean }) => {
       {loading && <SkeletonView2 />}
       {!loading && view_name && (
         <section id={view_name?.toLowerCase()?.replace(/[\/&]/g, '').replace(/\s+/g, '-')} className="bg-transparent dark:bg-primary dark:text-white">
-          <div className="container mx-auto max-w-7xl prose dark:prose-invert py-4">
-            {view_name && <h2 className="dark:text-white">{view_name || ''}</h2>}
+          <div className="container mx-auto max-w-7xl prose py-4">
+            {view_name && <h2 className="dark:text-black">{view_name || ''}</h2>}
             {info_cards?.length > 0 && (
               <div role="list" className="my-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 ">
                 {info_cards?.map((f: any, index: number) => (

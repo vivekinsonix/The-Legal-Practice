@@ -88,14 +88,21 @@ export const VIEW_7 = ({ data, loading }: { data: any; loading: boolean }) => {
       {/* ---------- Render UI when Loaded ---------- */}
       {!loading && view_name && (
         <section id={view_name?.toLowerCase()?.replace(/[\/&]/g, '').replace(/\s+/g, '-')}>
-          <div className="container mx-auto max-w-7xl  py-4 prose dark:prose-invert  prose-headings:mt-0">
+          <div
+            className="
+  container mx-auto max-w-7xl py-4 
+  prose prose-headings:mt-0 
+  prose-neutral dark:prose-neutral 
+  text-gray-800 dark:text-black
+"
+          >
             {view_name && (
-              <h2 className="dark:text-white">
+              <h2>
                 <RichTextViewer content={view_name || ''} />
               </h2>
             )}
             {title && (
-              <div className="mt-2 mb-5 text-sm text-slate-600 dark:text-gray-300">
+              <div className="mt-2 mb-5 text-sm text-slate-600 dark:text-black">
                 <RichTextViewer content={title || ''} />
               </div>
             )}
@@ -106,17 +113,17 @@ export const VIEW_7 = ({ data, loading }: { data: any; loading: boolean }) => {
                   const isOpen = openIndex === index;
 
                   return (
-                    <div key={index} className={`rounded-2xl bg-white dark:bg-secondary-dark shadow-sm transition-all duration-300 ${isOpen ? 'border-blue-200 bg-blue-50 dark:bg-blue-900/20' : 'hover:bg-gray-50 dark:hover:bg-secondary-dark'}`}>
-                      <button onClick={() => toggleFAQ(index)} className="flex w-full justify-between items-center px-6 py-3 text-left font-medium text-gray-800 dark:text-white focus:outline-none">
+                    <div key={index} className={`rounded-2xl bg-white dark:bg-white shadow-sm transition-all duration-300 ${isOpen ? 'border-blue-200 bg-blue-50 dark:bg-blue-900/20' : 'hover:bg-gray-50 dark:hover:bg-secondary-dark'}`}>
+                      <button onClick={() => toggleFAQ(index)} className="flex w-full justify-between items-center px-6 py-3 text-left font-medium text-gray-800 dark:text-black focus:outline-none">
                         <span className="text-lg">
                           <RichTextViewer content={faq?.ques || ''} />
                         </span>
 
-                        <span className="ml-4 text-2xl text-blue-600 transition-transform duration-300">{isOpen ? <Minus /> : <Plus />}</span>
+                        <span className="ml-4 text-2xl text-blue-600 dark:text-black transition-transform duration-300">{isOpen ? <Minus /> : <Plus />}</span>
                       </button>
 
                       <div className={`overflow-hidden transition-all duration-300 ${isOpen ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'}`}>
-                        <div className="px-6 pb-6 text-gray-700 dark:text-gray-300">
+                        <div className="px-6 pb-6 text-gray-700 dark:text-black">
                           <RichTextViewer content={faq?.ans || ''} />
                         </div>
                       </div>
